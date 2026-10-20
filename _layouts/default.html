@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="{{ t.html_lang | escape }}" data-dark="false">
   {% include head.html %}
-  <body>
+  <body{% if site.data.floating_contact.enabled %} class="has-floating-contact"{% endif %}>
     <a class="skip-link" href="#main">{{ t.skip | escape }}</a>
     {% include header.html %}
     <main id="main" tabindex="-1">
@@ -18,6 +18,7 @@
       {% include content.html content=content %}
     </main>
     {% include footer.html %}
+    {% include floating-contact.html %}
     <script src="{{ '/assets/site.js' | relative_url | escape }}" defer></script>
   </body>
 </html>

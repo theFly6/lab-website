@@ -22,6 +22,7 @@ def page_failures(pages):
         if (page['horizontalOverflow'] or page['imagesBroken'] or len(page['h1']) != 1
                 or page['navigationLinks'] != 8 or page['lang'] != expected_lang
                 or page.get('primaryNavigationItems') != 7
+                or page.get('floatingContactCount') != 1 or page.get('floatingContactOpen')
                 or page['alternateLanguage'] != other):
             failures.append(f"{page['width']}px {route}: 页面验收失败")
     return failures
@@ -91,6 +92,8 @@ def main():
                   imagesBroken: [...document.images].filter(x => !x.complete || x.naturalWidth === 0).map(x => x.src),
                   navigationLinks: document.querySelectorAll('#main-nav a').length,
                   primaryNavigationItems: document.querySelector('#main-nav').children.length,
+                  floatingContactCount: document.querySelectorAll('.floating-contact').length,
+                  floatingContactOpen: document.querySelector('.floating-contact')?.open,
                   alternateLanguage: document.querySelector('.language-switch a:not([aria-current])').getAttribute('href'),
                   footerColor: getComputedStyle(document.querySelector('.site-footer a')).color
                 }))()''')
@@ -168,6 +171,51 @@ def main():
           const responses = await Promise.all(icons.map(icon => fetch(icon.href)));
           return icons.length === 4 && responses.every(response => response.ok);
         })()'''))
+
+    student_email = json.loads((ROOT / '_data/floating_contact.json').read_text(encoding='utf-8'))['email']
+    for lang in ['zh', 'en']:
+        call('set', 'viewport', 1440, 1000)
+        open_page('/' + lang + '/')
+        check(lang + '联系卡片采用学生邮箱', evaluate('document.querySelector(".floating-contact-email").getAttribute("href")') == 'mailto:' + student_email)
+        check(lang + '联系卡片不推荐导师邮箱', evaluate('!document.querySelector(".floating-contact-panel").textContent.includes("lijianjiang@ustb.edu.cn")'))
+        call('focus', '.floating-contact > summary')
+        call('press', 'Enter')
+        check(lang + '键盘展开联系卡片', evaluate('document.querySelector(".floating-contact").open'))
+        call('click', '.floating-contact-copy')
+        call('wait', '--fn', 'document.querySelector(".floating-contact-status").textContent.length > 0')
+        check(lang + '真实剪贴板写入成功', evaluate('document.querySelector(".floating-contact-status").textContent === document.querySelector(".floating-contact").dataset.copied'))
+        call('press', 'Escape')
+        check(lang + 'Escape关闭联系卡片并恢复焦点', evaluate('!document.querySelector(".floating-contact").open && document.activeElement.matches(".floating-contact > summary")'))
+        call('click', '.floating-contact > summary')
+        call('click', '.floating-contact-close')
+        check(lang + '关闭按钮工作', evaluate('!document.querySelector(".floating-contact").open'))
+        call('click', '.floating-contact > summary')
+        call('click', 'h1')
+        check(lang + '点击外部关闭联系卡片', evaluate('!document.querySelector(".floating-contact").open'))
+        call('click', '.floating-contact > summary')
+        evaluate('Object.defineProperty(navigator, "clipboard", {configurable:true, value:{writeText:async()=>{throw new Error("测试拒绝复制权限")}}})')
+        call('click', '.floating-contact-copy')
+        call('wait', '--fn', 'document.querySelector(".floating-contact-status").textContent.length > 0')
+        check(lang + '拒绝复制权限时提示真实失败且选中邮箱', evaluate('document.querySelector(".floating-contact-status").textContent === document.querySelector(".floating-contact").dataset.copyFailed && getSelection().toString() === document.querySelector(".floating-contact").dataset.email'))
+        call('click', '.floating-contact-links a:first-child')
+        call('wait', '--load', 'networkidle')
+        check(lang + '联系卡片招生入口保持语言', evaluate('location.pathname') == '/' + lang + '/join/')
+        call('click', '.floating-contact > summary')
+        call('click', '.floating-contact-links a:last-child')
+        call('wait', '--load', 'networkidle')
+        check(lang + '联系卡片联系方式入口保持语言', evaluate('location.pathname') == '/' + lang + '/contact/')
+        for width, height in [(390, 844), (320, 480)]:
+            call('set', 'viewport', width, height)
+            call('click', '.floating-contact > summary')
+            check(f'{lang} {width}px联系卡片不超出屏幕', evaluate('''(() => {
+              const r = document.querySelector('.floating-contact-panel').getBoundingClientRect();
+              return r.left >= 0 && r.right <= innerWidth && r.top >= 0 && r.bottom <= innerHeight && document.documentElement.scrollWidth <= innerWidth;
+            })()'''))
+            call('press', 'Escape')
+    open_page('/404.html')
+    check('404页面也提供学生联系入口', evaluate('document.querySelectorAll(".floating-contact").length === 1 && !document.querySelector(".floating-contact").open'))
+    call('click', '.floating-contact > summary')
+    check('404联系卡片脚本可用', evaluate('!document.querySelector(".floating-contact-copy").hidden'))
 
     call('set', 'viewport', 390, 844)
     open_page('/en/join/')

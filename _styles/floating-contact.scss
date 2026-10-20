@@ -1,0 +1,99 @@
+---
+---
+
+// 联系入口共用样式；选择器限定在组件内，避免模板折叠框样式干扰。
+.floating-contact {
+  position: fixed;
+  left: max(24px, env(safe-area-inset-left));
+  right: max(24px, env(safe-area-inset-right));
+  bottom: max(24px, env(safe-area-inset-bottom));
+  z-index: 30;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
+  pointer-events: none;
+  color: #253b4b;
+  font: 14px/1.65 "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  text-align: left;
+}
+.floating-contact > summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  box-sizing: border-box;
+  width: max-content;
+  margin: 0 0 0 auto;
+  padding: 12px 20px;
+  border: 1px solid #315871;
+  border-radius: 28px;
+  background: #102e49;
+  color: #e6f7fa;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1.4;
+  list-style: none;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 5px 20px #102e4933;
+}
+.floating-contact > summary::before { content: none; display: none; }
+.floating-contact > summary::-webkit-details-marker { display: none; }
+.floating-contact > summary:hover, .floating-contact[open] > summary { background: #16435c; }
+.floating-contact-icon { width: 23px; height: 23px; color: #9be3df; flex-shrink: 0; }
+.floating-contact-panel {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 14px);
+  box-sizing: border-box;
+  width: 344px;
+  max-width: 100%;
+  max-height: calc(100vh - 116px);
+  max-height: calc(100dvh - 116px - env(safe-area-inset-bottom));
+  overflow-y: auto;
+  pointer-events: auto;
+  overscroll-behavior: contain;
+  padding: 26px;
+  border: 1px solid #d9e2e7;
+  border-top: 3px solid #096b78;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 14px 44px #102e4929;
+}
+.floating-contact-panel h2 { margin: 0 28px 10px 0; padding: 0; border: 0; color: #102e49; font: 650 21px/1.45 "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; letter-spacing: -.02em; text-transform: none; text-align: left; }
+.floating-contact-panel p { margin: 0; font-size: 13px; line-height: 1.8; text-align: left; }
+.floating-contact-intro { color: #566979; }
+.floating-contact-close { position: absolute; top: 14px; right: 12px; width: 36px; height: 36px; padding: 0; border: 0; border-radius: 6px; background: transparent; color: #566979; font: 25px/1 sans-serif; cursor: pointer; }
+.floating-contact-close:hover { background: #edf5f6; color: #102e49; }
+.floating-contact-person { display: flex; align-items: center; gap: 12px; margin: 22px 0 12px; }
+.floating-contact-person strong { display: block; font-size: 14px; font-weight: 650; }
+.floating-contact-avatar { display: grid; place-items: center; flex-shrink: 0; width: 40px; height: 40px; border-radius: 50%; background: #edf5f6; color: #096b78; font-size: 17px; font-weight: 600; }
+.floating-contact-role { display: block; color: #566979; font-size: 12px; }
+.floating-contact-email { color: #096b78; font-size: 14px; text-decoration: none; overflow-wrap: anywhere; }
+.floating-contact-email:hover { text-decoration: underline; }
+.floating-contact-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 18px; }
+.floating-contact-send, .floating-contact-copy { display: flex; align-items: center; justify-content: center; gap: 14px; box-sizing: border-box; min-height: 44px; padding: 9px; border: 1px solid #b6cad3; border-radius: 5px; font: inherit; font-size: 13px; font-weight: 600; text-decoration: none; cursor: pointer; }
+.floating-contact-send { color: white; border-color: #096b78; background: #096b78; }
+.floating-contact-send:hover { color: white; border-color: #08535f; background: #08535f; }
+.floating-contact-copy { background: white; color: #364c5d; }
+.floating-contact-copy:hover { background: #edf5f6; color: #096b78; }
+.floating-contact-panel .floating-contact-status { min-height: 24px; margin-top: 7px; font-size: 12px; color: #096b78; }
+.floating-contact-links { display: flex; justify-content: space-between; gap: 8px; padding-top: 15px; margin-top: 5px; border-top: 1px solid #e2e9ed; }
+.floating-contact-links a { color: #096b78; font-size: 12px; text-decoration: none; }
+.floating-contact-links a:hover { text-decoration: underline; }
+.floating-contact-panel .floating-contact-note { margin-top: 13px; color: #566979; font-size: 11px; }
+.floating-contact [hidden] { display: none !important; }
+.floating-contact :focus-visible { outline: 3px solid #13a9b3; outline-offset: 3px; }
+.has-floating-contact .site-footer { padding-bottom: 106px; }
+@media (max-width: 700px) {
+  .floating-contact { left: max(16px, env(safe-area-inset-left)); right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); }
+  .floating-contact > summary { min-height: 48px; padding: 11px 16px; gap: 8px; font-size: 13px; }
+  .floating-contact-icon { width: 21px; height: 21px; }
+  .floating-contact-panel { max-height: calc(100vh - 100px); max-height: calc(100dvh - 100px - env(safe-area-inset-bottom)); padding: 23px; }
+  .floating-contact-panel h2 { font-size: 20px; }
+  .has-floating-contact .site-footer { padding-bottom: 92px; }
+}

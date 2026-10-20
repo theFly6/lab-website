@@ -1,0 +1,803 @@
+{
+  "pages": [
+    {
+      "alternateLanguage": "/en/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "让计算更高效，\n让系统更可扩展。"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/zh/"
+    },
+    {
+      "alternateLanguage": "/en/people/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "团队介绍"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/zh/people/"
+    },
+    {
+      "alternateLanguage": "/en/research/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "研究方向"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/zh/research/"
+    },
+    {
+      "alternateLanguage": "/en/projects/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "科研项目"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/zh/projects/"
+    },
+    {
+      "alternateLanguage": "/en/publications/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "学术论文"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/zh/publications/"
+    },
+    {
+      "alternateLanguage": "/en/news/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "新闻动态"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/zh/news/"
+    },
+    {
+      "alternateLanguage": "/en/join/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "加入我们"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/zh/join/"
+    },
+    {
+      "alternateLanguage": "/en/contact/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "联系我们"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/zh/contact/"
+    },
+    {
+      "alternateLanguage": "/zh/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Efficient computing.\nScalable systems."
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/en/"
+    },
+    {
+      "alternateLanguage": "/zh/people/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "People"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/en/people/"
+    },
+    {
+      "alternateLanguage": "/zh/research/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Research"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/en/research/"
+    },
+    {
+      "alternateLanguage": "/zh/projects/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Projects"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/en/projects/"
+    },
+    {
+      "alternateLanguage": "/zh/publications/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Publications"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/en/publications/"
+    },
+    {
+      "alternateLanguage": "/zh/news/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "News"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/en/news/"
+    },
+    {
+      "alternateLanguage": "/zh/join/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Join Us"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/en/join/"
+    },
+    {
+      "alternateLanguage": "/zh/contact/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Contact"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 1425,
+      "width": 1440,
+      "route": "/en/contact/"
+    },
+    {
+      "alternateLanguage": "/en/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "让计算更高效，\n让系统更可扩展。"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/zh/"
+    },
+    {
+      "alternateLanguage": "/en/people/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "团队介绍"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/zh/people/"
+    },
+    {
+      "alternateLanguage": "/en/research/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "研究方向"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/zh/research/"
+    },
+    {
+      "alternateLanguage": "/en/projects/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "科研项目"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/zh/projects/"
+    },
+    {
+      "alternateLanguage": "/en/publications/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "学术论文"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/zh/publications/"
+    },
+    {
+      "alternateLanguage": "/en/news/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "新闻动态"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/zh/news/"
+    },
+    {
+      "alternateLanguage": "/en/join/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "加入我们"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/zh/join/"
+    },
+    {
+      "alternateLanguage": "/en/contact/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "联系我们"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "zh-CN",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/zh/contact/"
+    },
+    {
+      "alternateLanguage": "/zh/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Efficient computing.\nScalable systems."
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/en/"
+    },
+    {
+      "alternateLanguage": "/zh/people/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "People"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/en/people/"
+    },
+    {
+      "alternateLanguage": "/zh/research/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Research"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/en/research/"
+    },
+    {
+      "alternateLanguage": "/zh/projects/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Projects"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/en/projects/"
+    },
+    {
+      "alternateLanguage": "/zh/publications/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Publications"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/en/publications/"
+    },
+    {
+      "alternateLanguage": "/zh/news/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "News"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/en/news/"
+    },
+    {
+      "alternateLanguage": "/zh/join/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Join Us"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/en/join/"
+    },
+    {
+      "alternateLanguage": "/zh/contact/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
+      "footerColor": "rgb(194, 210, 220)",
+      "h1": [
+        "Contact"
+      ],
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "lang": "en",
+      "navigationLinks": 8,
+      "primaryNavigationItems": 7,
+      "scrollWidth": 375,
+      "width": 390,
+      "route": "/en/contact/"
+    }
+  ],
+  "interactions": [
+    {
+      "check": "全部论文初始显示（数量来自数据文件）",
+      "passed": true
+    },
+    {
+      "check": "关键词检索结果与数据一致",
+      "passed": true
+    },
+    {
+      "check": "关键词叠加年份结果正确",
+      "passed": true
+    },
+    {
+      "check": "关键词叠加年份与主题结果正确",
+      "passed": true
+    },
+    {
+      "check": "空结果提示",
+      "passed": true
+    },
+    {
+      "check": "清空条件恢复全部论文",
+      "passed": true
+    },
+    {
+      "check": "论文页中文转英文停留同页",
+      "passed": true
+    },
+    {
+      "check": "论文页英文转中文停留同页",
+      "passed": true
+    },
+    {
+      "check": "zh一级导航顺序正确",
+      "passed": true
+    },
+    {
+      "check": "zh下拉默认收起",
+      "passed": true
+    },
+    {
+      "check": "zh键盘展开下拉",
+      "passed": true
+    },
+    {
+      "check": "zh下拉仅含团队和新闻",
+      "passed": true
+    },
+    {
+      "check": "zhEscape关闭下拉并归还焦点",
+      "passed": true
+    },
+    {
+      "check": "zh点击外部关闭下拉",
+      "passed": true
+    },
+    {
+      "check": "zh新闻页标记当前分组和子页",
+      "passed": true
+    },
+    {
+      "check": "zh下拉页面语言切换保持新闻页",
+      "passed": true
+    },
+    {
+      "check": "zh图标资源可访问",
+      "passed": true
+    },
+    {
+      "check": "en一级导航顺序正确",
+      "passed": true
+    },
+    {
+      "check": "en下拉默认收起",
+      "passed": true
+    },
+    {
+      "check": "en键盘展开下拉",
+      "passed": true
+    },
+    {
+      "check": "en下拉仅含团队和新闻",
+      "passed": true
+    },
+    {
+      "check": "enEscape关闭下拉并归还焦点",
+      "passed": true
+    },
+    {
+      "check": "en点击外部关闭下拉",
+      "passed": true
+    },
+    {
+      "check": "en新闻页标记当前分组和子页",
+      "passed": true
+    },
+    {
+      "check": "en下拉页面语言切换保持新闻页",
+      "passed": true
+    },
+    {
+      "check": "en图标资源可访问",
+      "passed": true
+    },
+    {
+      "check": "zh联系卡片采用学生邮箱",
+      "passed": true
+    },
+    {
+      "check": "zh联系卡片不推荐导师邮箱",
+      "passed": true
+    },
+    {
+      "check": "zh键盘展开联系卡片",
+      "passed": true
+    },
+    {
+      "check": "zh真实剪贴板写入成功",
+      "passed": true
+    },
+    {
+      "check": "zhEscape关闭联系卡片并恢复焦点",
+      "passed": true
+    },
+    {
+      "check": "zh关闭按钮工作",
+      "passed": true
+    },
+    {
+      "check": "zh点击外部关闭联系卡片",
+      "passed": true
+    },
+    {
+      "check": "zh拒绝复制权限时提示真实失败且选中邮箱",
+      "passed": true
+    },
+    {
+      "check": "zh联系卡片招生入口保持语言",
+      "passed": true
+    },
+    {
+      "check": "zh联系卡片联系方式入口保持语言",
+      "passed": true
+    },
+    {
+      "check": "zh 390px联系卡片不超出屏幕",
+      "passed": true
+    },
+    {
+      "check": "zh 320px联系卡片不超出屏幕",
+      "passed": true
+    },
+    {
+      "check": "en联系卡片采用学生邮箱",
+      "passed": true
+    },
+    {
+      "check": "en联系卡片不推荐导师邮箱",
+      "passed": true
+    },
+    {
+      "check": "en键盘展开联系卡片",
+      "passed": true
+    },
+    {
+      "check": "en真实剪贴板写入成功",
+      "passed": true
+    },
+    {
+      "check": "enEscape关闭联系卡片并恢复焦点",
+      "passed": true
+    },
+    {
+      "check": "en关闭按钮工作",
+      "passed": true
+    },
+    {
+      "check": "en点击外部关闭联系卡片",
+      "passed": true
+    },
+    {
+      "check": "en拒绝复制权限时提示真实失败且选中邮箱",
+      "passed": true
+    },
+    {
+      "check": "en联系卡片招生入口保持语言",
+      "passed": true
+    },
+    {
+      "check": "en联系卡片联系方式入口保持语言",
+      "passed": true
+    },
+    {
+      "check": "en 390px联系卡片不超出屏幕",
+      "passed": true
+    },
+    {
+      "check": "en 320px联系卡片不超出屏幕",
+      "passed": true
+    },
+    {
+      "check": "404页面也提供学生联系入口",
+      "passed": true
+    },
+    {
+      "check": "404联系卡片脚本可用",
+      "passed": true
+    },
+    {
+      "check": "手机导航初始收起",
+      "passed": true
+    },
+    {
+      "check": "手机菜单可展开",
+      "passed": true
+    },
+    {
+      "check": "Escape关闭导航",
+      "passed": true
+    },
+    {
+      "check": "手机更多菜单可展开",
+      "passed": true
+    },
+    {
+      "check": "手机Escape先关闭子菜单",
+      "passed": true
+    },
+    {
+      "check": "手机菜单链接可访问",
+      "passed": true
+    },
+    {
+      "check": "320px zh首页无横向溢出",
+      "passed": true
+    },
+    {
+      "check": "320px en首页无横向溢出",
+      "passed": true
+    },
+    {
+      "check": "768px zh首页无横向溢出",
+      "passed": true
+    },
+    {
+      "check": "768px en首页无横向溢出",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "complete": true,
+  "browser_errors": {
+    "errors": []
+  }
+}

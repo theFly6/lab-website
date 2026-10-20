@@ -1,5 +1,19 @@
 # 本地构建与验收记录
 
+## 2026-10-20：学生联系悬浮卡片
+
+本节对应 `feature/floating-contact` 的首版功能，最新浏览器报告为 [floating-contact-browser.json](floating-contact-browser.json)。后续章节保留早期验收快照。
+
+- 16个中英文内容页及404均加入原生 `details/summary` 联系入口。默认收起，点击后展开非模态卡片，首选学生邮箱为 `zhangyunfei@xs.ustb.edu.cn`。
+- 32个页面与视口组合、62项交互全部通过，浏览器脚本错误0条，`complete=true`。其中新增26项检查覆盖学生邮箱、卡片内不推荐导师邮箱、键盘展开、Escape及关闭按钮、焦点恢复、外部点击、真实剪贴板写入、权限拒绝提示与选中邮箱、双语内部链接、390px/320px短屏与404。
+- 复制成功路径使用真实 `navigator.clipboard.writeText`；失败路径在测试浏览器中模拟拒绝权限，验证不会显示成功提示。未点击邮件发送链接或发送实际邮件。
+- [根路径检查](floating-contact-root.json)与[GitHub Pages子路径检查](floating-contact-production.json)均通过：18个HTML、1,110处站内引用、16条双语路由。生产构建额外检查canonical、hreflang及sitemap。
+- [HTTP检查](floating-contact-http.json)：17个页面、54项资源、5个维护路径、实际404均符合预期。
+- `node --check assets/site.js`、浏览器检查脚本Python语法检查及当前源码差异空白检查通过。
+- 人工查看[桌面卡片](floating-contact-desktop.png)、[390px手机卡片](floating-contact-mobile.png)与[320×480短屏卡片](floating-contact-small.png)。窄屏留有边距，短屏可在卡片内滚动；页脚预留收起按钮空间。
+- 无JavaScript时可依靠原生折叠结构访问邮箱和内部链接，复制与关闭按钮默认隐藏；此降级路径依据HTML与样式核查，未完成浏览器禁用JavaScript的独立实测。
+- 配置、界面文案及维护方式见README；未新增运行依赖。`v0.1-layout-baseline`仍指向原提交 `aa7f5c5`。
+
 ## 2026-10-20：导航与站点图标增量验收
 
 本节为最新结果，下文2026-10-19的数量与截图说明保留为初始交付记录。

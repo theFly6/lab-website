@@ -8,6 +8,7 @@ permalink: /404.html
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>页面未找到 / Page not found</title>
+  <link rel="stylesheet" href="{{ '/_styles/floating-contact.css' | relative_url }}">
   <style>
     body { margin: 0; padding: 12vh 24px; font: 17px/1.8 system-ui, sans-serif; color: #253b4b; background: #f4f7f8; }
     main { max-width: 700px; margin: auto; }
@@ -22,5 +23,7 @@ permalink: /404.html
     <p>页面未找到。<span lang="en">Page not found.</span></p>
     <p><a href="{{ '/zh/' | relative_url }}">返回中文首页</a> · <a lang="en" href="{{ '/en/' | relative_url }}">English home</a></p>
   </main>
+  {% include floating-contact.html %}
+  <script src="{{ '/assets/site.js' | relative_url }}" defer></script>
 </body>
 </html>

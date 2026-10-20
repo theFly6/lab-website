@@ -2,6 +2,8 @@
   "pages": [
     {
       "alternateLanguage": "/en/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "让计算更高效，\n让系统更可扩展。"
@@ -17,6 +19,8 @@
     },
     {
       "alternateLanguage": "/en/people/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "团队介绍"
@@ -32,6 +36,8 @@
     },
     {
       "alternateLanguage": "/en/research/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "研究方向"
@@ -47,6 +53,8 @@
     },
     {
       "alternateLanguage": "/en/projects/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "科研项目"
@@ -62,6 +70,8 @@
     },
     {
       "alternateLanguage": "/en/publications/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "学术论文"
@@ -77,6 +87,8 @@
     },
     {
       "alternateLanguage": "/en/news/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "新闻动态"
@@ -92,6 +104,8 @@
     },
     {
       "alternateLanguage": "/en/join/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "加入我们"
@@ -107,6 +121,8 @@
     },
     {
       "alternateLanguage": "/en/contact/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "联系我们"
@@ -122,6 +138,8 @@
     },
     {
       "alternateLanguage": "/zh/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Efficient computing.\nScalable systems."
@@ -137,6 +155,8 @@
     },
     {
       "alternateLanguage": "/zh/people/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "People"
@@ -152,6 +172,8 @@
     },
     {
       "alternateLanguage": "/zh/research/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Research"
@@ -167,6 +189,8 @@
     },
     {
       "alternateLanguage": "/zh/projects/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Projects"
@@ -182,6 +206,8 @@
     },
     {
       "alternateLanguage": "/zh/publications/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Publications"
@@ -197,6 +223,8 @@
     },
     {
       "alternateLanguage": "/zh/news/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "News"
@@ -212,6 +240,8 @@
     },
     {
       "alternateLanguage": "/zh/join/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Join Us"
@@ -227,6 +257,8 @@
     },
     {
       "alternateLanguage": "/zh/contact/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Contact"
@@ -242,6 +274,8 @@
     },
     {
       "alternateLanguage": "/en/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "让计算更高效，\n让系统更可扩展。"
@@ -257,6 +291,8 @@
     },
     {
       "alternateLanguage": "/en/people/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "团队介绍"
@@ -272,6 +308,8 @@
     },
     {
       "alternateLanguage": "/en/research/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "研究方向"
@@ -287,6 +325,8 @@
     },
     {
       "alternateLanguage": "/en/projects/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "科研项目"
@@ -302,6 +342,8 @@
     },
     {
       "alternateLanguage": "/en/publications/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "学术论文"
@@ -317,6 +359,8 @@
     },
     {
       "alternateLanguage": "/en/news/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "新闻动态"
@@ -332,6 +376,8 @@
     },
     {
       "alternateLanguage": "/en/join/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "加入我们"
@@ -347,6 +393,8 @@
     },
     {
       "alternateLanguage": "/en/contact/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "联系我们"
@@ -362,6 +410,8 @@
     },
     {
       "alternateLanguage": "/zh/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Efficient computing.\nScalable systems."
@@ -377,6 +427,8 @@
     },
     {
       "alternateLanguage": "/zh/people/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "People"
@@ -392,6 +444,8 @@
     },
     {
       "alternateLanguage": "/zh/research/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Research"
@@ -407,6 +461,8 @@
     },
     {
       "alternateLanguage": "/zh/projects/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Projects"
@@ -422,6 +478,8 @@
     },
     {
       "alternateLanguage": "/zh/publications/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Publications"
@@ -437,6 +495,8 @@
     },
     {
       "alternateLanguage": "/zh/news/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "News"
@@ -452,6 +512,8 @@
     },
     {
       "alternateLanguage": "/zh/join/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Join Us"
@@ -467,6 +529,8 @@
     },
     {
       "alternateLanguage": "/zh/contact/",
+      "floatingContactCount": 1,
+      "floatingContactOpen": false,
       "footerColor": "rgb(194, 210, 220)",
       "h1": [
         "Contact"
@@ -584,6 +648,110 @@
     },
     {
       "check": "en图标资源可访问",
+      "passed": true
+    },
+    {
+      "check": "zh联系卡片采用学生邮箱",
+      "passed": true
+    },
+    {
+      "check": "zh联系卡片不推荐导师邮箱",
+      "passed": true
+    },
+    {
+      "check": "zh键盘展开联系卡片",
+      "passed": true
+    },
+    {
+      "check": "zh真实剪贴板写入成功",
+      "passed": true
+    },
+    {
+      "check": "zhEscape关闭联系卡片并恢复焦点",
+      "passed": true
+    },
+    {
+      "check": "zh关闭按钮工作",
+      "passed": true
+    },
+    {
+      "check": "zh点击外部关闭联系卡片",
+      "passed": true
+    },
+    {
+      "check": "zh拒绝复制权限时提示真实失败且选中邮箱",
+      "passed": true
+    },
+    {
+      "check": "zh联系卡片招生入口保持语言",
+      "passed": true
+    },
+    {
+      "check": "zh联系卡片联系方式入口保持语言",
+      "passed": true
+    },
+    {
+      "check": "zh 390px联系卡片不超出屏幕",
+      "passed": true
+    },
+    {
+      "check": "zh 320px联系卡片不超出屏幕",
+      "passed": true
+    },
+    {
+      "check": "en联系卡片采用学生邮箱",
+      "passed": true
+    },
+    {
+      "check": "en联系卡片不推荐导师邮箱",
+      "passed": true
+    },
+    {
+      "check": "en键盘展开联系卡片",
+      "passed": true
+    },
+    {
+      "check": "en真实剪贴板写入成功",
+      "passed": true
+    },
+    {
+      "check": "enEscape关闭联系卡片并恢复焦点",
+      "passed": true
+    },
+    {
+      "check": "en关闭按钮工作",
+      "passed": true
+    },
+    {
+      "check": "en点击外部关闭联系卡片",
+      "passed": true
+    },
+    {
+      "check": "en拒绝复制权限时提示真实失败且选中邮箱",
+      "passed": true
+    },
+    {
+      "check": "en联系卡片招生入口保持语言",
+      "passed": true
+    },
+    {
+      "check": "en联系卡片联系方式入口保持语言",
+      "passed": true
+    },
+    {
+      "check": "en 390px联系卡片不超出屏幕",
+      "passed": true
+    },
+    {
+      "check": "en 320px联系卡片不超出屏幕",
+      "passed": true
+    },
+    {
+      "check": "404页面也提供学生联系入口",
+      "passed": true
+    },
+    {
+      "check": "404联系卡片脚本可用",
       "passed": true
     },
     {

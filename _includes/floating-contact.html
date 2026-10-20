@@ -1,0 +1,27 @@
+{% assign floating = site.data.floating_contact %}
+{% if floating.enabled and floating.email and floating.email != '' %}
+{% assign contact_lang = page.lang | default: 'zh' %}
+{% assign contact_text = site.data.locales[contact_lang].floating_contact %}
+{% assign join_path = '/' | append: contact_lang | append: '/join/' %}
+{% assign contact_path = '/' | append: contact_lang | append: '/contact/' %}
+<details class="floating-contact" data-email="{{ floating.email | escape }}" data-copied="{{ contact_text.copied | escape }}" data-copy-failed="{{ contact_text.copy_failed | escape }}">
+  <summary aria-controls="floating-contact-panel">
+    <svg class="floating-contact-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
+    <span>{{ contact_text.button | escape }}</span>
+  </summary>
+  <div class="floating-contact-panel" id="floating-contact-panel" role="region" aria-labelledby="floating-contact-title">
+    <button class="floating-contact-close" type="button" aria-label="{{ contact_text.close | escape }}" hidden><span aria-hidden="true">×</span></button>
+    <h2 id="floating-contact-title">{{ contact_text.title | escape }}</h2>
+    <p class="floating-contact-intro">{{ contact_text.intro | escape }}</p>
+    <div class="floating-contact-person"><span class="floating-contact-avatar" aria-hidden="true">{{ floating.name[contact_lang] | slice: 0, 1 | escape }}</span><div><strong>{{ floating.name[contact_lang] | escape }}</strong><span class="floating-contact-role">{{ contact_text.role | escape }}</span></div></div>
+    <a class="floating-contact-email" href="mailto:{{ floating.email | escape }}">{{ floating.email | escape }}</a>
+    <div class="floating-contact-actions">
+      <a class="floating-contact-send" href="mailto:{{ floating.email | escape }}">{{ contact_text.send | escape }} <span aria-hidden="true">↗</span></a>
+      <button class="floating-contact-copy" type="button" hidden>{{ contact_text.copy | escape }}</button>
+    </div>
+    <p class="floating-contact-status" role="status" aria-live="polite" aria-atomic="true"></p>
+    <div class="floating-contact-links"><a href="{{ join_path | relative_url | escape }}">{{ contact_text.join | escape }} <span aria-hidden="true">→</span></a><a href="{{ contact_path | relative_url | escape }}">{{ contact_text.contact | escape }} <span aria-hidden="true">→</span></a></div>
+    <p class="floating-contact-note">{{ contact_text.note | escape }}</p>
+  </div>
+</details>
+{% endif %}

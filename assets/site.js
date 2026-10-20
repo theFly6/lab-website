@@ -26,6 +26,7 @@ if (menu && navigation) {
   });
   document.addEventListener('keydown', event => {
     if (event.key !== 'Escape') return;
+    if (document.querySelector('.floating-contact[open]')) return;
     const openDropdown = dropdowns.find(dropdown => dropdown.open);
     if (openDropdown) {
       openDropdown.open = false;
@@ -37,6 +38,56 @@ if (menu && navigation) {
   });
   navigation.addEventListener('click', event => {
     if (event.target.closest('a')) closeMenu();
+  });
+}
+// 联系卡片保持为非模态区域；失败时显示真实的手动复制提示。
+const floatingContact = document.querySelector('.floating-contact');
+if (floatingContact) {
+  const trigger = floatingContact.querySelector('summary');
+  const closeButton = floatingContact.querySelector('.floating-contact-close');
+  const copyButton = floatingContact.querySelector('.floating-contact-copy');
+  const status = floatingContact.querySelector('.floating-contact-status');
+  const closeContact = (restoreFocus = false) => {
+    floatingContact.open = false;
+    status.textContent = '';
+    if (restoreFocus) trigger.focus();
+  };
+  closeButton.hidden = false;
+  copyButton.hidden = false;
+  closeButton.addEventListener('click', () => closeContact(true));
+  floatingContact.addEventListener('toggle', () => {
+    if (!floatingContact.open) status.textContent = '';
+  });
+  document.addEventListener('click', event => {
+    if (!floatingContact.contains(event.target)) closeContact();
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && floatingContact.open) {
+      event.preventDefault();
+      closeContact(true);
+    }
+  });
+  floatingContact.addEventListener('focusout', event => {
+    if (event.relatedTarget && !floatingContact.contains(event.relatedTarget)) closeContact();
+  });
+  copyButton.addEventListener('click', async () => {
+    copyButton.disabled = true;
+    status.textContent = '';
+    try {
+      await navigator.clipboard.writeText(floatingContact.dataset.email);
+      if (floatingContact.open) status.textContent = floatingContact.dataset.copied;
+    } catch {
+      if (floatingContact.open) {
+        const range = document.createRange();
+        range.selectNodeContents(floatingContact.querySelector('.floating-contact-email'));
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        status.textContent = floatingContact.dataset.copyFailed;
+      }
+    } finally {
+      copyButton.disabled = false;
+    }
   });
 }
 const search = document.querySelector('#publication-search');

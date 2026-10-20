@@ -108,6 +108,8 @@ JSON 采用 UTF-8，字符串中的双引号需要写为 `\"`；建议编辑前�
 
 **站点图标**：采用与页眉一致的计算节点标识 `assets/mark.svg`，并提供 `assets/favicon-32.png`、`assets/apple-touch-icon.png` 和根目录 `favicon.ico`，兼容常见浏览器及主屏幕收藏。它是本站的通用科研标识，不是学校官方校徽。更换标识时请同步更新这些导出文件；图标引用统一在 `_includes/head.html` 中，支持 GitHub Pages 子路径。
 
+**右下角悬浮联系**：在 `_data/floating_contact.json` 修改 `email` 与双语 `name`；`enabled: false` 可关闭入口。本地试版按用户要求采用学生联系人张云飞与此前记录的 `zhangyunfei@xs.ustb.edu.cn`，不表示学校正式指定的招生咨询邮箱。卡片文案位于两份locale的 `floating_contact` 字段。所有中英文内容页及404共用 `_includes/floating-contact.html`，配套样式为 `_styles/floating-contact.scss`；无需逐页修改。支持发送邮件、复制邮箱、同语言招生/联系页入口、Escape关闭和焦点恢复。复制权限受限时会选中邮箱并提示手动复制；不自动发送邮件。关闭JavaScript后仍能展开卡片与访问邮件链接，复制和关闭按钮隐藏，可再次点击「联系」收起。
+
 ## 构建与检查
 
 在 WSL / Linux 项目目录：
