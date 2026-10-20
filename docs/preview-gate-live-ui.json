@@ -1,0 +1,25 @@
+{
+  "checks": 5,
+  "results": [
+    {
+      "check": "线上新会话有模态遮罩",
+      "result": true
+    },
+    {
+      "check": "线上错误码被拦截",
+      "result": true
+    },
+    {
+      "check": "线上正确码解锁",
+      "result": true
+    },
+    {
+      "check": "线上站内导航记忆",
+      "result": true
+    },
+    {
+      "check": "线上语言切换保持当前页与解锁",
+      "result": true
+    }
+  ]
+}

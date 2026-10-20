@@ -9,6 +9,7 @@
 - 最初测试脚本把浏览器工具栏获得焦点误认为页面焦点逃逸，并误用 `zh` 替代实际 `zh-CN` 选择器；修正测试断言与选择器后复验通过，没有为这些测试问题修改网站行为。
 - 实际查看中文桌面与英文手机截图，输入卡片和按钮可读。截图仅保存在 `.local/preview-gate-ui/`。没有实际操作手机输入法或各厂商浏览器；无JavaScript提示与失败默认锁定已检查产物结构，未声称完成所有浏览器兼容性验证。
 - 单开关维护、HTTPS/localhost要求、源码公开与SEO可能受影响的边界见 [PREVIEW_GATE.md](PREVIEW_GATE.md)。本轮未修改或重复提交Search Console验证、Sitemap或索引请求。
+- 源码 `00ab64e` 合并推送后，[Pages发布](https://github.com/theFly6/lab-website/actions/runs/39394623440)成功。[线上HTTP检查](preview-gate-live.json)核对18个页面、2项资源和17个Sitemap地址，0错误；通过代理的独立[线上浏览器检查](preview-gate-live-ui.json)5项通过，验证新会话、错误码、正确码、跨页记忆与对应页语言切换。专用本地预览服务和测试浏览器均已关闭，原4000端口服务保留。
 
 ## 2026-10-20：首页/导师身份与申请指南SEO优化
 

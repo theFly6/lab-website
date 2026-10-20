@@ -8,6 +8,8 @@
 
 正式子路径、本地根路径、关闭配置三种Jekyll构建均成功；18个HTML、16条双语路由及内部引用检查通过。独立浏览器44项检查通过，覆盖所有内容入口、404、桌面/手机/短视口、错误和正确码、模态键盘行为、会话与中英文对应页切换。维护与恢复步骤见 [PREVIEW_GATE.md](docs/PREVIEW_GATE.md)，具体测试证据见 [TESTING.md](docs/TESTING.md)。未重新提交Google验证或Sitemap。
 
+源码提交 `00ab64e` 已快进合并到 `main` 并推送，远程保留 `feature/preview-access-gate`。随后 [Pages发布](https://github.com/theFly6/lab-website/actions/runs/39394623440) 构建与部署均成功。[线上HTTP验收](docs/preview-gate-live.json)核对18个页面及2项遮罩资源，校验摘要、原有元数据与17个Sitemap地址正确，0错误；[线上浏览器5项检查](docs/preview-gate-live-ui.json)确认新会话拦截、错误码拦截、正确码放行、站内记忆和对应页语言切换。专用4011预览服务与独立测试浏览器已关闭，未操作用户原有4000端口服务；本地需重启原Jekyll服务才能读取新配置。本轮未创建版本标签。
+
 ## 2026-10-20：首页/导师身份与研究生申请指南SEO优化
 
 在 `feature/identity-seo` 中优化首页、导师身份和申请指南，覆盖6个中英文页面。首页H1明确“北京科技大学 / 李建江课题组”，保留原宣传语为副标题；中文正文自然加入“北科大”，英文展开USTB全称。导师页H1与首段明确姓名、学院、教授/博士生导师和清华大学工学博士身份，均沿用既有已核实资料。

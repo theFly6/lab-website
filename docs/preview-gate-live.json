@@ -1,0 +1,113 @@
+{
+  "checked_at_utc": "2026-10-20T08:37:50.014794+00:00",
+  "deployed_source_commit": "00ab64e3bafabdc62097c90ee4d95f7640814a83",
+  "deployment_run": "https://github.com/theFly6/lab-website/actions/runs/39394623440",
+  "pages": [
+    {
+      "url": "https://thefly6.github.io/lab-website/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/people/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/research/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/projects/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/publications/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/news/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/join/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/contact/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/people/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/research/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/projects/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/publications/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/news/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/join/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/contact/",
+      "http_status": 200,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/404.html",
+      "http_status": 200,
+      "errors": []
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/preview-gate.js",
+      "http_status": 200,
+      "matches_local": true
+    },
+    {
+      "path": "assets/preview-gate.css",
+      "http_status": 200,
+      "matches_local": true
+    }
+  ],
+  "sitemap_status": 200,
+  "sitemap_urls": 17,
+  "sitemap_urls_unchanged": true,
+  "errors": []
+}
