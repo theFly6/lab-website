@@ -36,6 +36,20 @@
     "contact": "Get in touch to discuss research and academic exchange."
   },
   "skip": "Skip to content",
+  "preview_gate": {
+    "eyebrow": "RESEARCH GROUP · INTERNAL PREVIEW",
+    "title": "Enter the access code",
+    "intro": "This website is being prepared and reviewed. Use the access code provided by the person who shared it to view the full page.",
+    "label": "Access code",
+    "hint": "Case-sensitive; remembered within this tab.",
+    "submit": "Open preview",
+    "loading": "Loading access verification…",
+    "note": "For discussion and review; not a final release",
+    "invalid": "Incorrect access code. Please check and try again.",
+    "unavailable": "Use HTTPS or localhost and a modern browser that supports secure verification.",
+    "config_error": "The access code configuration is invalid. Please contact the person who shared this site.",
+    "nojs": "Enable JavaScript, reopen the page, and enter the access code provided by the person who shared this site."
+  },
   "language": "Language",
   "language_label": "EN",
   "menu": "Toggle navigation",

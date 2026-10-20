@@ -1,0 +1,48 @@
+/* 演示遮罩保持正文正常加载；不提供服务端访问控制。 */
+.preview-gate {
+  z-index: 2147483647;
+  position: fixed; inset: 0; width: 100%; max-width: none;
+  height: 100%; height: 100dvh; max-height: none;
+  box-sizing: border-box; margin: 0; padding: 24px;
+  border: 0; background: #edf3f6; color: #253b4b;
+  overflow: auto; overscroll-behavior: contain;
+  font: 16px/1.7 "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.preview-gate:not([open]) { display: none; }
+.preview-gate[open] { display: grid; place-items: center; }
+.preview-gate::backdrop { background: #edf3f6; }
+.preview-gate-card {
+  box-sizing: border-box; width: 100%; max-width: 460px;
+  padding: 34px; background: white; border: 1px solid #d9e2e7;
+  border-radius: 14px; box-shadow: 0 16px 60px #102e4912;
+  text-align: left;
+}
+.preview-gate-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 30px; }
+.preview-gate-brand img { flex-shrink: 0; width: 42px; height: 42px; }
+.preview-gate-brand strong, .preview-gate-brand span { display: block; }
+.preview-gate-brand strong { color: #102e49; font-size: 1rem; line-height: 1.5; }
+.preview-gate-brand span { color: #566979; font-size: .73rem; }
+.preview-gate .preview-gate-eyebrow { margin: 0 0 8px; color: #096b78; font-size: .72rem; font-weight: 650; letter-spacing: .12em; }
+.preview-gate h2 { margin: 0 0 12px; padding: 0; border: 0; color: #102e49; font-size: 1.7rem; line-height: 1.4; text-align: left; text-transform: none; }
+.preview-gate p { margin: 0 0 20px; color: #566979; font-size: .9rem; line-height: 1.8; text-align: left; }
+.preview-gate-form { display: block; margin: 26px 0 0; }
+.preview-gate-form label { display: block; margin-bottom: 8px; font-size: .88rem; font-weight: 600; color: #253b4b; }
+.preview-gate-form input { display: block; box-sizing: border-box; width: 100%; min-width: 0; min-height: 48px; padding: 10px 12px; border: 1px solid #9db1bd; border-radius: 5px; background: #fff; color: #102e49; font: inherit; font-size: 16px; }
+.preview-gate-form input[aria-invalid="true"] { border-color: #ae3640; }
+.preview-gate-form .preview-gate-hint { margin: 8px 0 20px; font-size: .76rem; }
+.preview-gate-form button { display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; width: 100%; min-height: 48px; margin: 0; padding: 11px 16px; border: 0; border-radius: 5px; background: #096b78; color: #fff; font: inherit; font-size: .92rem; font-weight: 600; cursor: pointer; }
+.preview-gate-form button:disabled { opacity: .65; cursor: wait; }
+.preview-gate-form .preview-gate-status { min-height: 1.8em; margin: 10px 0 0; color: #ae3640; font-size: .82rem; }
+.preview-gate input:focus-visible, .preview-gate button:focus-visible, .preview-gate a:focus-visible { outline: 3px solid #13a9b3; outline-offset: 3px; }
+.preview-gate-bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin-top: 20px; padding-top: 18px; border-top: 1px solid #e5ecef; font-size: .73rem; color: #566979; }
+.preview-gate-bottom nav { display: flex; gap: 12px; }
+.preview-gate-bottom a { color: #566979; text-decoration: none; }
+.preview-gate-bottom a[aria-current] { color: #096b78; font-weight: 650; }
+.preview-gate-nojs { position: fixed; inset: 0; z-index: 2147483647; display: grid; place-items: center; box-sizing: border-box; padding: 28px; background: #edf3f6; color: #253b4b; font: 16px/1.8 system-ui, sans-serif; }
+.preview-gate-nojs > div { width: min(100%, 420px); }
+@media (max-width: 480px) {
+  .preview-gate { padding: 18px; }
+  .preview-gate-card { padding: 25px 22px; border-radius: 10px; }
+  .preview-gate-brand { margin-bottom: 24px; }
+  .preview-gate h2 { font-size: 1.5rem; }
+}

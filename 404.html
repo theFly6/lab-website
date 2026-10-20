@@ -3,10 +3,11 @@ layout: null
 permalink: /404.html
 ---
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN"{% if site.preview_gate.enabled %} data-preview-gate="locked"{% endif %}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include preview-gate-head.html %}
   <title>页面未找到 / Page not found</title>
   <link rel="stylesheet" href="{{ '/_styles/floating-contact.css' | relative_url }}">
   <style>
@@ -18,7 +19,8 @@ permalink: /404.html
   </style>
 </head>
 <body>
-  <main>
+  {% include preview-gate.html %}
+  <main id="main" tabindex="-1">
     <h1>404</h1>
     <p>页面未找到。<span lang="en">Page not found.</span></p>
     <p><a href="{{ '/zh/' | relative_url }}">返回中文首页</a> · <a lang="en" href="{{ '/en/' | relative_url }}">English home</a></p>

@@ -5,6 +5,10 @@ url: "https://thefly6.github.io"
 baseurl: ""
 # Google Search Console 的公开验证标识；验证成功后仍需保留。
 google_site_verification: "MHs2HiN4OVxke_pajT57NCcAlCY_WsPziCcv8quTOf4"
+# 临时演示遮罩，仅阻止随手浏览；关闭后重新构建发布即可恢复。
+preview_gate:
+  enabled: true
+  code_sha256: "90dbb3c553a94c18852147a381f66e954b5c87519292e631095574316d875554"
 timezone: Asia/Shanghai
 lang: zh-CN
 proofer: false

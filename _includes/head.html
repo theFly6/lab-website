@@ -1,6 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include preview-gate-head.html %}
   {% include verification.html %}
   {% assign page_seo = t.seo[page.page_key] %}
   {% capture fallback_title %}{{ t.nav[page.page_key] | default: page.title }} | {{ t.site_name }}{% endcapture %}

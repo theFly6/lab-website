@@ -2,9 +2,10 @@
 {% assign t = site.data.locales[lang] %}
 {% assign home_url = '/' | append: lang | append: '/' %}
 <!DOCTYPE html>
-<html lang="{{ t.html_lang | escape }}" data-dark="false">
+<html lang="{{ t.html_lang | escape }}" data-dark="false"{% if site.preview_gate.enabled %} data-preview-gate="locked"{% endif %}>
   {% include head.html %}
   <body{% if site.data.floating_contact.enabled %} class="has-floating-contact"{% endif %}>
+    {% include preview-gate.html %}
     <a class="skip-link" href="#main">{{ t.skip | escape }}</a>
     {% include header.html %}
     <main id="main" tabindex="-1">

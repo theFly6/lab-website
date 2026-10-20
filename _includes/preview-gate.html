@@ -1,0 +1,23 @@
+{% if site.preview_gate.enabled %}
+{% assign gate_lang = page.lang | default: 'zh' %}
+{% assign gate_text = site.data.locales[gate_lang].preview_gate %}
+<dialog class="preview-gate" id="preview-gate" open aria-modal="true" aria-labelledby="preview-gate-title" aria-describedby="preview-gate-intro" closedby="none"
+  data-code-sha256="{{ site.preview_gate.code_sha256 | escape }}" data-storage-scope="{{ '/' | relative_url | escape }}"
+  data-invalid="{{ gate_text.invalid | escape }}" data-unavailable="{{ gate_text.unavailable | escape }}" data-config-error="{{ gate_text.config_error | escape }}">
+  <div class="preview-gate-card" data-nosnippet>
+    <div class="preview-gate-brand"><img src="{{ '/assets/mark.svg' | relative_url | escape }}" alt="" width="42" height="42"><div><strong>{{ site.data.locales[gate_lang].site_name | escape }}</strong><span>{{ site.data.locales[gate_lang].institution | escape }}</span></div></div>
+    <p class="preview-gate-eyebrow">{{ gate_text.eyebrow | escape }}</p>
+    <h2 id="preview-gate-title">{{ gate_text.title | escape }}</h2>
+    <p id="preview-gate-intro">{{ gate_text.intro | escape }}</p>
+    <form class="preview-gate-form" novalidate>
+      <label for="preview-gate-code">{{ gate_text.label | escape }}</label>
+      <input id="preview-gate-code" type="password" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="preview-gate-hint preview-gate-status" required>
+      <p class="preview-gate-hint" id="preview-gate-hint">{{ gate_text.hint | escape }}</p>
+      <button type="submit" disabled>{{ gate_text.submit | escape }} <span aria-hidden="true">→</span></button>
+      <p class="preview-gate-status" id="preview-gate-status" role="status" aria-live="polite" aria-atomic="true">{{ gate_text.loading | escape }}</p>
+    </form>
+    <div class="preview-gate-bottom"><span>{{ gate_text.note | escape }}</span><nav aria-label="{{ site.data.locales[gate_lang].language | escape }}">{% for gate_language in site.data.navigation.languages %}{% assign gate_alternative = site.pages | where: 'page_key', page.page_key | where: 'lang', gate_language | first %}{% capture gate_home %}/{{ gate_language }}/{% endcapture %}<a href="{{ gate_alternative.url | default: gate_home | relative_url | escape }}" lang="{{ site.data.locales[gate_language].html_lang | escape }}" hreflang="{{ site.data.locales[gate_language].html_lang | escape }}"{% if gate_language == gate_lang %} aria-current="true"{% endif %}>{{ site.data.locales[gate_language].language_label | escape }}</a>{% endfor %}</nav></div>
+  </div>
+</dialog>
+<noscript><div class="preview-gate-nojs" data-nosnippet><div><h2>{{ gate_text.title | escape }}</h2><p>{{ gate_text.nojs | escape }}</p></div></div></noscript>
+{% endif %}

@@ -1,0 +1,6 @@
+{% if site.preview_gate.enabled %}
+{% comment %}先绘制不透明底层，避免访问码脚本加载前闪现正文；正文仍照常输出。{% endcomment %}
+<style>html[data-preview-gate="locked"]{overflow:hidden}html[data-preview-gate="locked"] body::before{content:"";position:fixed;inset:0;background:#edf3f6;z-index:2147483646}html[data-preview-gate="locked"] body{overflow:hidden}</style>
+<link rel="stylesheet" href="{{ '/assets/preview-gate.css' | relative_url | escape }}">
+<script src="{{ '/assets/preview-gate.js' | relative_url | escape }}" defer></script>
+{% endif %}

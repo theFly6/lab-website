@@ -1,0 +1,181 @@
+{
+  "checks": 44,
+  "results": [
+    {
+      "check": "直接访问 zh/",
+      "result": true
+    },
+    {
+      "check": "直接访问 zh/people/",
+      "result": true
+    },
+    {
+      "check": "直接访问 zh/research/",
+      "result": true
+    },
+    {
+      "check": "直接访问 zh/projects/",
+      "result": true
+    },
+    {
+      "check": "直接访问 zh/publications/",
+      "result": true
+    },
+    {
+      "check": "直接访问 zh/news/",
+      "result": true
+    },
+    {
+      "check": "直接访问 zh/join/",
+      "result": true
+    },
+    {
+      "check": "直接访问 zh/contact/",
+      "result": true
+    },
+    {
+      "check": "直接访问 en/",
+      "result": true
+    },
+    {
+      "check": "直接访问 en/people/",
+      "result": true
+    },
+    {
+      "check": "直接访问 en/research/",
+      "result": true
+    },
+    {
+      "check": "直接访问 en/projects/",
+      "result": true
+    },
+    {
+      "check": "直接访问 en/publications/",
+      "result": true
+    },
+    {
+      "check": "直接访问 en/news/",
+      "result": true
+    },
+    {
+      "check": "直接访问 en/join/",
+      "result": true
+    },
+    {
+      "check": "直接访问 en/contact/",
+      "result": true
+    },
+    {
+      "check": "404遮罩",
+      "result": true
+    },
+    {
+      "check": "布局 zh 1440x900",
+      "result": true
+    },
+    {
+      "check": "布局 en 1440x900",
+      "result": true
+    },
+    {
+      "check": "布局 zh 390x844",
+      "result": true
+    },
+    {
+      "check": "布局 en 390x844",
+      "result": true
+    },
+    {
+      "check": "布局 zh 320x568",
+      "result": true
+    },
+    {
+      "check": "布局 en 320x568",
+      "result": true
+    },
+    {
+      "check": "布局 zh 844x390",
+      "result": true
+    },
+    {
+      "check": "布局 en 844x390",
+      "result": true
+    },
+    {
+      "check": "布局 zh 390x500",
+      "result": true
+    },
+    {
+      "check": "布局 en 390x500",
+      "result": true
+    },
+    {
+      "check": "Escape无法跳过",
+      "result": true
+    },
+    {
+      "check": "键盘未进入背景内容",
+      "result": true
+    },
+    {
+      "check": "键盘未进入背景内容",
+      "result": true
+    },
+    {
+      "check": "键盘未进入背景内容",
+      "result": true
+    },
+    {
+      "check": "键盘未进入背景内容",
+      "result": true
+    },
+    {
+      "check": "键盘未进入背景内容",
+      "result": true
+    },
+    {
+      "check": "键盘未进入背景内容",
+      "result": true
+    },
+    {
+      "check": "键盘未进入背景内容",
+      "result": true
+    },
+    {
+      "check": "错误码与大小写",
+      "result": true
+    },
+    {
+      "check": "访问码未进入网址",
+      "result": true
+    },
+    {
+      "check": "遮罩内语言切换保留当前页",
+      "result": true
+    },
+    {
+      "check": "正确码放行并清空输入",
+      "result": true
+    },
+    {
+      "check": "会话只存摘要",
+      "result": true
+    },
+    {
+      "check": "刷新记忆",
+      "result": true
+    },
+    {
+      "check": "跨页面记忆",
+      "result": true
+    },
+    {
+      "check": "放行后语言切换",
+      "result": true
+    },
+    {
+      "check": "旧校验值失效",
+      "result": true
+    }
+  ]
+}
