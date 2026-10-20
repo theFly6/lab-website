@@ -6,7 +6,7 @@
 - 演示：https://greenelab.github.io/lab-website-template/
 - 本次基线提交：`cca827da53417f039cb485bc8930a6d163aaa48a`
 - 上游许可：保留根目录 `LICENSE.md`；页脚保留模板署名。
-- 当前目录是上游的独立克隆，`.git` 保留原始历史与来源，未推送；开始自己的仓库前按 README 调整 remote。
+- 当前目录从上游独立克隆，现已补全原始Git历史；本项目远程为`origin`（`theFly6/lab-website`），原模板保留为`upstream`。后续仓库与版本维护见README。
 
 ## 原有技术与组织
 

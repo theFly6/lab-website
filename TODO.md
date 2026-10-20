@@ -16,7 +16,7 @@
 | P1 | 任职任期、当前学术服务及学期开课安排 | 已录入学校与HPCDE公开任职、两门课程，但来源未给出明确更新时间，未推定任期或当前开课 | `_data/people.json` |
 | P1 | 导师邮箱拼写差异 | HPCDE写作lijanjiang，学院明文为lijianjiang；保留学院记录，未发送验证邮件 | `docs/HPCDE_RESEARCH.md` |
 | P1 | 教学奖励年份、课程认定时间与完整获奖学生名单 | 已按公开简介录入5项校内教学奖、2类培养成果和课程认定；未推定具体年份或学生姓名 | `_data/people.json`、`docs/TEACHING_CONTENT.md` |
-| P2 | 正式域名、GitHub账户与仓库名、`url`/`baseurl` | 均未猜测或创建 | `_config.yaml` |
+| P2 | 正式域名及上线时的`url`/`baseurl` | 源码仓库已确定为`theFly6/lab-website`；发布域名与部署配置仍待上线阶段处理 | `_config.yaml` |
 | P2 | 审批后移除中英文页脚“本地预览稿”提示 | 当前保留，避免草稿被误认为正式信息 | locale 的 `footer.preview` |
 | P2 | 如需在正式站点保留公开来源标注，确认展示方式 | 目前相关页面附来源，完整记录在docs | `_includes/lab/source.html` |
 | P2 | 新闻中李亿行同学的官方英文姓名拼写 | 暂保留中文姓名，未猜测多音字拼音 | `_data/news.json` |

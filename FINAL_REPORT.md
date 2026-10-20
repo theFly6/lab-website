@@ -1,5 +1,11 @@
 # 李建江课题组双语网站：最终交付报告
 
+## 2026-10-20 Git合并与源码归档
+
+用户已验收内容优化，`main`已快进合并 `content/hpcde-public-info`，包含截至 `baef9e2` 的全部网站改动。本次归档目标为 [theFly6/lab-website](https://github.com/theFly6/lab-website)，上传范围为主分支及 `v0.1-layout-baseline`、`v0.2-floating-contact` 两个附注标签。原模板完整Git历史已补全，模板来源保留为`upstream`。
+
+TODO、来源、开发文档和审查证据继续随源码保存；项目依赖、缓存、构建产物及`.local/`按原忽略规则留在本地。`.github/workflows/pages.yml`只接受手动触发，本次源码归档不执行GitHub Pages部署。以下“未推送”等表述为对应开发阶段的历史记录，当前仓库说明以本节和README为准。
+
 ## 2026-10-20导师页优化：教学荣誉与人才培养
 
 继续在 `content/hpcde-public-info` 保存资料优化。精简导师简介，将详细教育/工作年份集中到经历区；按照简介、任职/学术服务、教学/著作、教学荣誉/人才培养、经历、成员/平台的顺序组织People页。
@@ -157,7 +163,7 @@ UI独立审查覆盖中英文 Home、People、Projects、Publications、Join、C
 ## 八、后续发布到GitHub Pages
 
 1. 审核TODO中的正式对外资料，按需移除页脚“本地预览稿”。
-2. 创建自己的仓库；当前origin仍是上游模板，先改名为upstream，再把自己的仓库设为origin，不要误推上游。
+2. 使用现有仓库 `theFly6/lab-website`；`origin`指向本项目仓库，`upstream`保留模板来源。
 3. `_config.yaml` 设置真实`url`与`baseurl`，项目仓库使用`/仓库名`；账号主页仓库使用空baseurl。
 4. 提交源码、锁文件和许可，排除vendor、_site、.bundle和.local。
 5. 仓库Settings → Pages选择GitHub Actions，手动运行“手动发布已审核网站到 GitHub Pages”。普通push不会自动发布。

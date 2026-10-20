@@ -1,8 +1,16 @@
 # 李建江课题组双语网站（本地初稿）
 
-基于 [Greene Lab Website Template](https://github.com/greenelab/lab-website-template) 搭建。保留 Jekyll / Liquid / SCSS 技术栈与模板分区、组件结构；没有部署、创建远程仓库或购买服务。
+基于 [Greene Lab Website Template](https://github.com/greenelab/lab-website-template) 搭建。保留 Jekyll / Liquid / SCSS 技术栈与模板分区、组件结构。源码仓库为 [theFly6/lab-website](https://github.com/theFly6/lab-website)；网站仍以本地预览为主，尚未部署到 GitHub Pages，未购买服务器或域名。
 
 完整交付与4个独立Subagent交叉审查结果见 [FINAL_REPORT.md](FINAL_REPORT.md)。
+
+## Git 仓库与版本
+
+- `origin`：`https://github.com/theFly6/lab-website.git`，用于保存本项目；`upstream`保留Greene Lab模板来源。
+- `main`已合并验收通过的悬浮联系功能与HPCDE、教学荣誉等内容补充。
+- `v0.1-layout-baseline`：初始双语布局基线；`v0.2-floating-contact`：学生邮箱悬浮联系版本。
+- TODO、来源、开发与测试文档随源码保存；依赖、缓存、`_site/`和`.local/`继续排除。
+- 后续功能从`main`创建独立分支，验收后合并。推送源码和版本标签用于归档；Pages发布工作流仍需手动触发。
 
 ## 本机启动
 
@@ -147,8 +155,8 @@ python3 scripts/check_site.py --site .local/site-subpath --baseurl /lab-preview
 本次没有执行以下发布操作。资料审核完成后：
 
 1. 根据TODO确认名称、成员、招生、照片与联系方式；调整或移除双语页脚的草稿标记。
-2. 创建自己的GitHub仓库。当前git remote仍指向上游模板，不要推送到上游；可以把它重命名为`upstream`后，将自己的仓库设置为`origin`。
-3. 在 `_config.yaml` 设置 `url: "https://你的账号.github.io"`。项目仓库设置 `baseurl: "/仓库名"`；`账号.github.io` 主页仓库的 `baseurl` 留空。
+2. 使用现有源码仓库 `theFly6/lab-website`；`origin`已指向该仓库，模板来源保留为`upstream`。
+3. 若发布到此仓库的GitHub Pages，在 `_config.yaml` 设置 `url: "https://thefly6.github.io"`、`baseurl: "/lab-website"`。正式上线前再修改，本地预览仍使用空baseurl。
 4. 将源码（含Gemfile.lock和LICENSE）提交到自己的仓库，忽略vendor、_site、.bundle、.local。本站含自定义Jekyll插件，选择仓库 Settings → Pages → **GitHub Actions**，不要直接让内置Pages Jekyll编译源码。
 5. Actions 中手动运行 `手动发布已审核网站到 GitHub Pages`。提供的 `.github/workflows/pages.yml` 构建并检查内部链接，然后发布静态产物；配置为手动触发，单纯push不会自动上线。
 6. 上线后复查 `/zh/`、`/en/`、所有语言切换及子路径资源。
