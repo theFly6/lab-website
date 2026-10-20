@@ -10,6 +10,8 @@
 
 维护与范围说明见 [IDENTITY_SEO.md](docs/IDENTITY_SEO.md)，结果见[生产检查](docs/identity-seo-check-production.json)、[根路径检查](docs/identity-seo-check-root.json)和[浏览器检查](docs/identity-seo-ui.json)。保留原有TODO和开发笔记，仅更正TODO中已过时的“未发布”状态。没有改动依赖或招生事实，不保证关键词排名或搜索摘要立即更新。
 
+源码提交 `c8a3238` 已快进合并到 `main` 并推送，远程保留 `feature/identity-seo`。随后[Pages运行](https://github.com/theFly6/lab-website/actions/runs/39388369283)成功；[线上验收](docs/identity-seo-live.json)核对17个页面、Google验证标记、标题/摘要、canonical/hreflang、申请问答与新样式均通过，Sitemap的17个网址不变。本轮不重复提交Google验证或索引请求，也未创建版本标签。专用预览服务和测试浏览器已关闭，未操作用户的4000端口服务。
+
 ## 2026-10-20：SEO与搜索收录准备
 
 网站已由用户首次部署到GitHub Pages，中文入口为 <https://thefly6.github.io/lab-website/zh/>，英文入口为 <https://thefly6.github.io/lab-website/en/>；下文各历史阶段的“未部署”描述不代表当前状态。
