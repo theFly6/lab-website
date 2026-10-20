@@ -1,0 +1,6 @@
+# 保证 Windows 克隆后，WSL 启动脚本仍使用 LF。
+* text=auto
+*.sh text eol=lf
+*.rb text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

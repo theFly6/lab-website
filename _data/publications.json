@@ -1,0 +1,181 @@
+[
+  {
+    "id": "crystal-md",
+    "year": 2021,
+    "topic": "hpc",
+    "featured": true,
+    "source": "https://www.sciopen.com/article/10.26599/TST.2019.9010074?issn=1007-0214",
+    "title": "Memory access optimization of molecular dynamics simulation software Crystal-MD on Sunway Taihulight",
+    "doi": "10.26599/tst.2019.9010074",
+    "venue": "Tsinghua Science and Technology",
+    "volume": "26",
+    "issue": "3",
+    "pages": "296-308",
+    "authors": [
+      "Jianjiang Li",
+      "Jie Lin",
+      "Panpan Du",
+      "Kai Zhang",
+      "Jie Wu"
+    ],
+    "summary": {
+      "zh": "研究 Crystal-MD 在神威·太湖之光上的访存方式与优化。",
+      "en": "Studies memory access and optimization of Crystal-MD on Sunway TaihuLight."
+    },
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "crystal-kmc-2021",
+    "year": 2021,
+    "topic": "hpc",
+    "featured": true,
+    "source": "https://www.sciopen.com/article/10.26599/TST.2019.9010075?issn=1007-0214",
+    "title": "Parallel optimization of the Crystal-KMC on Tianhe-2",
+    "doi": "10.26599/tst.2019.9010075",
+    "venue": "Tsinghua Science and Technology",
+    "volume": "26",
+    "issue": "3",
+    "pages": "309-321",
+    "authors": [
+      "Jianjiang Li",
+      "Baixue Ji",
+      "Yun Yang",
+      "Peng Wei",
+      "Jie Wu"
+    ],
+    "summary": {
+      "zh": "围绕天河二号上的 Crystal-KMC，开展 MPI、OpenMP 与 MIC 混合并行优化。",
+      "en": "Explores hybrid parallel optimization of Crystal-KMC on Tianhe-2 using MPI, OpenMP and MIC."
+    },
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "crystal-kmc-2018",
+    "year": 2018,
+    "topic": "hpc",
+    "featured": false,
+    "source": "https://www.sciopen.com/article/10.26599/TST.2018.9010107",
+    "title": "Crystal-KMC: parallel software for lattice dynamics monte carlo simulation of metal materials",
+    "doi": "10.26599/tst.2018.9010107",
+    "venue": "Tsinghua Science and Technology",
+    "volume": "23",
+    "issue": "4",
+    "pages": "501-510",
+    "authors": [
+      "Jianjiang Li",
+      "Peng Wei",
+      "Shaofeng Yang",
+      "Jie Wu",
+      "Peng Liu",
+      "Xinfu He"
+    ],
+    "summary": {
+      "zh": "提出面向金属材料晶格演化模拟的 MPI 并行软件 Crystal-KMC。",
+      "en": "Introduces Crystal-KMC, MPI-based parallel software for lattice simulations of metallic materials."
+    },
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "kernel",
+    "year": 2017,
+    "topic": "hpc",
+    "featured": false,
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0010465516301928",
+    "title": "Kernel optimization for short-range molecular dynamics",
+    "doi": "10.1016/j.cpc.2016.07.010",
+    "venue": "Computer Physics Communications",
+    "volume": "211",
+    "issue": null,
+    "pages": "31-40",
+    "authors": [
+      "Changjun Hu",
+      "Xianmeng Wang",
+      "Jianjiang Li",
+      "Xinfu He",
+      "Shigang Li",
+      "Yangde Feng",
+      "Shaofeng Yang",
+      "He Bai"
+    ],
+    "summary": {
+      "zh": "研究短程分子动力学计算内核的多线程与 SIMD 优化。",
+      "en": "Studies multithreading and SIMD optimization of short-range molecular dynamics kernels."
+    },
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "data-check",
+    "year": 2017,
+    "topic": "storage",
+    "featured": true,
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0167739X1630557X",
+    "title": "A data-check based distributed storage model for storing hot temporary data",
+    "doi": "10.1016/j.future.2017.03.019",
+    "venue": "Future Generation Computer Systems",
+    "volume": "73",
+    "issue": null,
+    "pages": "13-21",
+    "authors": [
+      "Jianjiang Li",
+      "Peng Zhang",
+      "Yuance Li",
+      "Wei Chen",
+      "Yajun Liu",
+      "Lizhe Wang"
+    ],
+    "summary": {
+      "zh": "针对热临时数据，研究基于 XOR 校验的分布式存储与恢复方法。",
+      "en": "Studies XOR-checksum-based distributed storage and recovery for hot temporary data."
+    },
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "post",
+    "year": 2017,
+    "topic": "systems",
+    "featured": false,
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0167739X1630005X",
+    "title": "Research and implementation of a distributed transaction processing middleware",
+    "doi": "10.1016/j.future.2016.01.021",
+    "venue": "Future Generation Computer Systems",
+    "volume": "74",
+    "issue": null,
+    "pages": "232-240",
+    "authors": [
+      "Jianjiang Li",
+      "Qian Ge",
+      "Jie Wu",
+      "Yue Li",
+      "Xiaolei Yang",
+      "Zhanning Ma"
+    ],
+    "summary": {
+      "zh": "设计 POST 系统，结合数据分区与中间件改善分布式事务处理。",
+      "en": "Designs POST, combining data partitioning and middleware for distributed transaction processing."
+    },
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "fsap",
+    "year": 2015,
+    "topic": "storage",
+    "featured": false,
+    "source": "https://www.sciopen.com/article/10.1109/TST.2015.7128935",
+    "title": "Frequency and Similarity-Aware Partitioning for cloud storage based on Space-Time Utility Maximization Model",
+    "doi": "10.1109/tst.2015.7128935",
+    "venue": "Tsinghua Science and Technology",
+    "volume": "20",
+    "issue": "3",
+    "pages": "233-245",
+    "authors": [
+      "Jianjiang Li",
+      "Jie Wu",
+      "Zhanning Ma"
+    ],
+    "summary": {
+      "zh": "研究结合访问频率和数据相似度的云存储划分方法。",
+      "en": "Studies cloud storage partitioning using access frequency and data similarity."
+    },
+    "checked": "2026-10-19"
+  }
+]

@@ -1,0 +1,456 @@
+{
+  "time": "2026-10-19T14:54:14.211668+00:00",
+  "base": "http://localhost:4000",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 0,
+      "canonical": [],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/zh/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/zh/people/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/zh/people/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/zh/research/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/zh/research/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/zh/projects/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/zh/projects/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/zh/publications/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/zh/publications/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/zh/news/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/zh/news/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/zh/join/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/zh/join/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/zh/contact/",
+      "status": 200,
+      "lang": "zh-CN",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/zh/contact/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/en/",
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/en/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/en/people/",
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/en/people/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/en/research/",
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/en/research/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/en/projects/",
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/en/projects/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/en/publications/",
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/en/publications/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/en/news/",
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/en/news/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/en/join/",
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/en/join/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/en/contact/",
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "canonical": [
+        "http://0.0.0.0:4000/en/contact/"
+      ],
+      "escaped_document_tags": false
+    },
+    {
+      "path": "/definitely-does-not-exist/",
+      "status": 404,
+      "lang": null,
+      "h1": 0,
+      "canonical": [],
+      "escaped_document_tags": true
+    }
+  ],
+  "resources": [
+    {
+      "path": "/_styles/-theme.css",
+      "status": 200,
+      "bytes": 890
+    },
+    {
+      "path": "/_styles/alert.css",
+      "status": 200,
+      "bytes": 566
+    },
+    {
+      "path": "/_styles/all.css",
+      "status": 200,
+      "bytes": 178
+    },
+    {
+      "path": "/_styles/anchor.css",
+      "status": 200,
+      "bytes": 441
+    },
+    {
+      "path": "/_styles/background.css",
+      "status": 200,
+      "bytes": 379
+    },
+    {
+      "path": "/_styles/body.css",
+      "status": 200,
+      "bytes": 273
+    },
+    {
+      "path": "/_styles/bold.css",
+      "status": 200,
+      "bytes": 79
+    },
+    {
+      "path": "/_styles/button.css",
+      "status": 200,
+      "bytes": 911
+    },
+    {
+      "path": "/_styles/card.css",
+      "status": 200,
+      "bytes": 848
+    },
+    {
+      "path": "/_styles/checkbox.css",
+      "status": 200,
+      "bytes": 85
+    },
+    {
+      "path": "/_styles/citation.css",
+      "status": 200,
+      "bytes": 1458
+    },
+    {
+      "path": "/_styles/code.css",
+      "status": 200,
+      "bytes": 570
+    },
+    {
+      "path": "/_styles/cols.css",
+      "status": 200,
+      "bytes": 537
+    },
+    {
+      "path": "/_styles/dark-toggle.css",
+      "status": 200,
+      "bytes": 589
+    },
+    {
+      "path": "/_styles/details.css",
+      "status": 200,
+      "bytes": 754
+    },
+    {
+      "path": "/_styles/feature.css",
+      "status": 200,
+      "bytes": 755
+    },
+    {
+      "path": "/_styles/figure.css",
+      "status": 200,
+      "bytes": 385
+    },
+    {
+      "path": "/_styles/float.css",
+      "status": 200,
+      "bytes": 478
+    },
+    {
+      "path": "/_styles/font.css",
+      "status": 200,
+      "bytes": 51
+    },
+    {
+      "path": "/_styles/footer.css",
+      "status": 200,
+      "bytes": 378
+    },
+    {
+      "path": "/_styles/form.css",
+      "status": 200,
+      "bytes": 126
+    },
+    {
+      "path": "/_styles/grid.css",
+      "status": 200,
+      "bytes": 710
+    },
+    {
+      "path": "/_styles/header.css",
+      "status": 200,
+      "bytes": 2363
+    },
+    {
+      "path": "/_styles/heading.css",
+      "status": 200,
+      "bytes": 665
+    },
+    {
+      "path": "/_styles/highlight.css",
+      "status": 200,
+      "bytes": 92
+    },
+    {
+      "path": "/_styles/icon.css",
+      "status": 200,
+      "bytes": 170
+    },
+    {
+      "path": "/_styles/image.css",
+      "status": 200,
+      "bytes": 85
+    },
+    {
+      "path": "/_styles/link.css",
+      "status": 200,
+      "bytes": 212
+    },
+    {
+      "path": "/_styles/list.css",
+      "status": 200,
+      "bytes": 254
+    },
+    {
+      "path": "/_styles/main.css",
+      "status": 200,
+      "bytes": 105
+    },
+    {
+      "path": "/_styles/paragraph.css",
+      "status": 200,
+      "bytes": 120
+    },
+    {
+      "path": "/_styles/portrait.css",
+      "status": 200,
+      "bytes": 1325
+    },
+    {
+      "path": "/_styles/post-excerpt.css",
+      "status": 200,
+      "bytes": 978
+    },
+    {
+      "path": "/_styles/post-info.css",
+      "status": 200,
+      "bytes": 438
+    },
+    {
+      "path": "/_styles/post-nav.css",
+      "status": 200,
+      "bytes": 543
+    },
+    {
+      "path": "/_styles/quote.css",
+      "status": 200,
+      "bytes": 235
+    },
+    {
+      "path": "/_styles/rule.css",
+      "status": 200,
+      "bytes": 126
+    },
+    {
+      "path": "/_styles/search-box.css",
+      "status": 200,
+      "bytes": 410
+    },
+    {
+      "path": "/_styles/search-info.css",
+      "status": 200,
+      "bytes": 154
+    },
+    {
+      "path": "/_styles/section.css",
+      "status": 200,
+      "bytes": 571
+    },
+    {
+      "path": "/_styles/table.css",
+      "status": 200,
+      "bytes": 239
+    },
+    {
+      "path": "/_styles/tags.css",
+      "status": 200,
+      "bytes": 593
+    },
+    {
+      "path": "/_styles/textbox.css",
+      "status": 200,
+      "bytes": 348
+    },
+    {
+      "path": "/_styles/tooltip.css",
+      "status": 200,
+      "bytes": 1299
+    },
+    {
+      "path": "/_styles/util.css",
+      "status": 200,
+      "bytes": 135
+    },
+    {
+      "path": "/_styles/zz-lab.css",
+      "status": 200,
+      "bytes": 19806
+    },
+    {
+      "path": "/assets/compute-fabric.svg",
+      "status": 200,
+      "bytes": 1606
+    },
+    {
+      "path": "/assets/jianjiang-li.jpg",
+      "status": 200,
+      "bytes": 694406
+    },
+    {
+      "path": "/assets/mark.svg",
+      "status": 200,
+      "bytes": 367
+    },
+    {
+      "path": "/assets/site.js",
+      "status": 200,
+      "bytes": 1989
+    }
+  ],
+  "excluded_paths": [
+    {
+      "path": "/docs/SOURCES.md",
+      "status": 404
+    },
+    {
+      "path": "/scripts/check_site.py",
+      "status": 404
+    },
+    {
+      "path": "/FINAL_REPORT.md",
+      "status": 404
+    },
+    {
+      "path": "/Gemfile",
+      "status": 404
+    },
+    {
+      "path": "/.git/config",
+      "status": 404
+    }
+  ]
+}

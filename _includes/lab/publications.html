@@ -1,0 +1,11 @@
+<p class="editorial-note">{{ t.publications.note | escape }}</p>
+<form class="publication-controls" role="search" onsubmit="return false">
+  <div class="search-field"><label for="publication-search">{{ t.publications.search_label | escape }}</label><input id="publication-search" type="search" placeholder="{{ t.publications.placeholder | escape }}"></div>
+  <div><label for="publication-year">{{ t.publications.year | escape }}</label><select id="publication-year"><option value="">{{ t.publications.all_years | escape }}</option>{% assign years = site.data.publications | map: 'year' | uniq | sort | reverse %}{% for year in years %}<option value="{{ year | escape }}">{{ year | escape }}</option>{% endfor %}</select></div>
+  <div><label for="publication-topic">{{ t.publications.topic | escape }}</label><select id="publication-topic"><option value="">{{ t.publications.all_topics | escape }}</option>{% for topic in t.topics %}<option value="{{ topic[0] | escape }}">{{ topic[1] | escape }}</option>{% endfor %}</select></div>
+</form>
+{% assign initial_count = t.publications.count | replace: '{count}', site.data.publications.size %}
+<p class="result-count" id="publication-count" aria-live="polite" data-template="{{ t.publications.count | escape }}">{{ initial_count | escape }}</p>
+<div id="publication-list">{% for pub in site.data.publications %}{% include lab/publication.html pub=pub summary=true %}{% endfor %}</div>
+<p id="publication-empty" hidden>{{ t.publications.empty | escape }}</p>
+<noscript><p>{{ t.publications.noscript | escape }}</p></noscript>

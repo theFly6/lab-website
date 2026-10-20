@@ -1,0 +1,20 @@
+{
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "primary": ["home", "research", "projects", "publications", "more", "join", "contact"],
+  "dropdowns": {
+    "more": ["people", "news"]
+  },
+  "pages": [
+    "home",
+    "people",
+    "research",
+    "projects",
+    "publications",
+    "news",
+    "join",
+    "contact"
+  ]
+}

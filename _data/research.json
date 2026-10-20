@@ -1,0 +1,101 @@
+[
+  {
+    "id": "hpc",
+    "title": {
+      "zh": "高性能与异构计算",
+      "en": "High-performance & heterogeneous computing"
+    },
+    "short": {
+      "zh": "理解体系结构，优化计算与数据访问。",
+      "en": "Optimize computation and data access for the architecture."
+    },
+    "description": {
+      "zh": "围绕多核与众核平台上的程序性能开展研究。Crystal-MD 在神威·太湖之光上的工作关注访存模式；Crystal-KMC 在天河二号上的工作结合 MPI、OpenMP 与 MIC 协同执行。",
+      "en": "Research on program performance across multicore and manycore platforms. Crystal-MD work on Sunway TaihuLight studies memory access, while Crystal-KMC work on Tianhe-2 combines MPI, OpenMP and MIC execution."
+    },
+    "keywords": [
+      "MPI",
+      "OpenMP",
+      "Memory access",
+      "Heterogeneous computing"
+    ],
+    "sources": [
+      "crystal_md",
+      "crystal_kmc"
+    ]
+  },
+  {
+    "id": "parallel",
+    "title": {
+      "zh": "并行模型与编译优化",
+      "en": "Parallel models & compilation"
+    },
+    "short": {
+      "zh": "面向可扩展程序设计与并行执行。",
+      "en": "Programming models and optimization for scalable execution."
+    },
+    "description": {
+      "zh": "导师公开项目涉及高生产率并行模型与编译验证、多范例并行构件及面向 E 级系统的并行编译优化，体现从编程模型到系统执行的研究联系。",
+      "en": "Public project records cover high-productivity parallel models and compilation verification, multi-paradigm parallel components, and compilation optimization for exascale systems."
+    },
+    "keywords": [
+      "Parallel programming",
+      "Compilation",
+      "OpenMP",
+      "Exascale"
+    ],
+    "sources": [
+      "projects"
+    ]
+  },
+  {
+    "id": "distributed",
+    "title": {
+      "zh": "分布式系统与云数据管理",
+      "en": "Distributed systems & cloud data"
+    },
+    "short": {
+      "zh": "研究数据存储、访问与事务处理。",
+      "en": "Study data placement, access and transaction processing."
+    },
+    "description": {
+      "zh": "代表性工作包括面向热临时数据的校验式分布式存储、基于 Berkeley DB 扩展的 POST 事务处理中间件，以及兼顾访问频率与相似度的云存储数据划分。",
+      "en": "Selected work includes checksum-based storage for hot temporary data, the POST transaction middleware extending Berkeley DB, and cloud data partitioning that considers access frequency and similarity."
+    },
+    "keywords": [
+      "Distributed storage",
+      "Cloud computing",
+      "Transaction processing",
+      "Data partitioning"
+    ],
+    "sources": [
+      "storage",
+      "post"
+    ]
+  },
+  {
+    "id": "scientific",
+    "title": {
+      "zh": "科学计算与超算应用",
+      "en": "Scientific computing & HPC applications"
+    },
+    "short": {
+      "zh": "连接并行算法与材料、工程模拟。",
+      "en": "Connect parallel algorithms with materials and engineering simulation."
+    },
+    "description": {
+      "zh": "以材料微观演化模拟和粒子类问题为研究场景，相关成果涉及分子动力学、动力学蒙特卡洛与大气动力学求解器移植优化，关注科学计算软件在超算平台上的实现。",
+      "en": "Materials evolution and particle problems motivate work on molecular dynamics, kinetic Monte Carlo and porting atmospheric dynamics solvers to supercomputing systems."
+    },
+    "keywords": [
+      "Molecular dynamics",
+      "Kinetic Monte Carlo",
+      "Scientific software",
+      "Parallel algorithms"
+    ],
+    "sources": [
+      "crystal_kmc",
+      "projects"
+    ]
+  }
+]

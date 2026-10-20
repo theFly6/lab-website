@@ -1,0 +1,312 @@
+{
+  "origin": "http://127.0.0.1:4000",
+  "baseurl": "",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/zh/",
+      "status": 200
+    },
+    {
+      "path": "/zh/people/",
+      "status": 200
+    },
+    {
+      "path": "/zh/research/",
+      "status": 200
+    },
+    {
+      "path": "/zh/projects/",
+      "status": 200
+    },
+    {
+      "path": "/zh/publications/",
+      "status": 200
+    },
+    {
+      "path": "/zh/news/",
+      "status": 200
+    },
+    {
+      "path": "/zh/join/",
+      "status": 200
+    },
+    {
+      "path": "/zh/contact/",
+      "status": 200
+    },
+    {
+      "path": "/en/",
+      "status": 200
+    },
+    {
+      "path": "/en/people/",
+      "status": 200
+    },
+    {
+      "path": "/en/research/",
+      "status": 200
+    },
+    {
+      "path": "/en/projects/",
+      "status": 200
+    },
+    {
+      "path": "/en/publications/",
+      "status": 200
+    },
+    {
+      "path": "/en/news/",
+      "status": 200
+    },
+    {
+      "path": "/en/join/",
+      "status": 200
+    },
+    {
+      "path": "/en/contact/",
+      "status": 200
+    }
+  ],
+  "resources": [
+    {
+      "path": "/_styles/-theme.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/alert.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/all.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/anchor.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/background.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/body.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/bold.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/button.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/card.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/checkbox.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/citation.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/code.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/cols.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/dark-toggle.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/details.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/feature.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/figure.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/float.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/font.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/footer.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/form.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/grid.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/header.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/heading.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/highlight.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/icon.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/image.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/link.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/list.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/main.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/paragraph.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/portrait.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/post-excerpt.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/post-info.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/post-nav.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/quote.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/rule.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/search-box.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/search-info.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/section.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/table.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/tags.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/textbox.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/tooltip.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/util.css",
+      "status": 200
+    },
+    {
+      "path": "/_styles/zz-lab.css",
+      "status": 200
+    },
+    {
+      "path": "/assets/apple-touch-icon.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/compute-fabric.svg",
+      "status": 200
+    },
+    {
+      "path": "/assets/favicon-32.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/jianjiang-li.jpg",
+      "status": 200
+    },
+    {
+      "path": "/assets/mark.svg",
+      "status": 200
+    },
+    {
+      "path": "/assets/site.js",
+      "status": 200
+    }
+  ],
+  "private_paths": [
+    {
+      "path": "/docs/SOURCES.md",
+      "status": 404
+    },
+    {
+      "path": "/scripts/check_site.py",
+      "status": 404
+    },
+    {
+      "path": "/FINAL_REPORT.md",
+      "status": 404
+    },
+    {
+      "path": "/Gemfile",
+      "status": 404
+    },
+    {
+      "path": "/.git/config",
+      "status": 404
+    }
+  ],
+  "errors": [],
+  "not_found": {
+    "status": 404,
+    "lang": "zh-CN",
+    "h1": 1
+  }
+}

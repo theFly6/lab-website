@@ -1,11 +1,23 @@
+{% assign lang = page.lang | default: 'zh' %}
+{% assign t = site.data.locales[lang] %}
+{% assign home_url = '/' | append: lang | append: '/' %}
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="{{ t.html_lang | escape }}" data-dark="false">
   {% include head.html %}
   <body>
+    <a class="skip-link" href="#main">{{ t.skip | escape }}</a>
     {% include header.html %}
-    <main>
+    <main id="main" tabindex="-1">
+      {% if page.page_key and page.page_key != 'home' %}
+      <section class="page-heading">
+        <div class="eyebrow">{{ t.institution_short | escape }} / {{ t.eyebrows[page.page_key] | escape }}</div>
+        <h1>{{ t.nav[page.page_key] | escape }}</h1>
+        <p class="lead">{{ t.intros[page.page_key] | escape }}</p>
+      </section>
+      {% endif %}
       {% include content.html content=content %}
     </main>
     {% include footer.html %}
+    <script src="{{ '/assets/site.js' | relative_url | escape }}" defer></script>
   </body>
 </html>

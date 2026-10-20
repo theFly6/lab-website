@@ -1,0 +1,3 @@
+{% for item in site.data.news %}<article class="news-article" id="{{ item.id | escape }}"><div class="news-meta"><time datetime="{{ item.date | escape }}">{{ item.date | escape }}</time><span>{{ t.news.category | escape }}</span></div><h2>{{ item.title[lang] | escape }}</h2><p class="lead">{{ item.summary[lang] | escape }}</p><p>{{ item.body[lang] | escape }}</p><a class="text-link" href="{{ item.source | escape }}">{{ t.news.original | escape }} ↗</a><p class="editorial-note">{{ t.news.source_note | escape }}</p></article>{% endfor %}
+{% include section.html %}
+<div class="quiet-note"><h2>{{ t.news.more_title | escape }}</h2><p><span class="todo">TODO</span> {{ t.news.more | escape }}</p></div>

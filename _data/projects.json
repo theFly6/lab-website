@@ -1,0 +1,140 @@
+[
+  {
+    "id": "project-1",
+    "period": "2021–2023",
+    "title": {
+      "zh": "面向 E 级系统的大气动力学全隐式模拟局部求解器移植与优化",
+      "en": "Porting and optimizing local solvers for fully implicit atmospheric dynamics simulations on exascale systems"
+    },
+    "program": {
+      "zh": "国家重点研发计划课题",
+      "en": "National Key R&D Program"
+    },
+    "role": {
+      "zh": "课题负责人",
+      "en": "Research task lead"
+    },
+    "number": null,
+    "source": "projects",
+    "related": null,
+    "description": {
+      "zh": "面向 E 级计算系统，开展大气动力学全隐式模拟局部求解器的移植与优化。来源记录列示执行期为2021—2023年。",
+      "en": "Porting and optimization of local solvers for fully implicit atmospheric dynamics simulations on exascale systems. The public record lists the period as 2021–2023."
+    }
+  },
+  {
+    "id": "project-2",
+    "period": "2017–2021",
+    "title": {
+      "zh": "面向 E 级系统的并行编译优化研究",
+      "en": "Parallel compilation optimization for exascale systems"
+    },
+    "program": {
+      "zh": "国家重点研发计划课题",
+      "en": "National Key R&D Program"
+    },
+    "role": {
+      "zh": "子课题负责人",
+      "en": "Subtask lead"
+    },
+    "number": "2017YFB0202003",
+    "source": "projects",
+    "related": null,
+    "description": {
+      "zh": "围绕 E 级系统的并行编译优化开展研究。李老师在公开项目记录中列为子课题负责人。",
+      "en": "Research on parallel compilation optimization for exascale systems. The public record identifies Professor Li as a subtask lead."
+    }
+  },
+  {
+    "id": "project-3",
+    "period": "2017–2020",
+    "title": {
+      "zh": "粒子类问题的可扩展并行算法研究",
+      "en": "Scalable parallel algorithms for particle problems"
+    },
+    "program": {
+      "zh": "国家重点研发计划课题",
+      "en": "National Key R&D Program"
+    },
+    "role": {
+      "zh": "子课题负责人",
+      "en": "Subtask lead"
+    },
+    "number": "2017YFB0202104",
+    "source": "projects",
+    "related": null,
+    "description": {
+      "zh": "面向粒子类科学计算问题，研究并行算法的可扩展性。来源记录列示执行期为2017—2020年。",
+      "en": "Research on scalable parallel algorithms for particle problems. The public record lists the period as 2017–2020."
+    }
+  },
+  {
+    "id": "project-4",
+    "period": "2015–2017",
+    "title": {
+      "zh": "核反应堆关键材料性能优化高性能数值模拟软件研发",
+      "en": "High-performance numerical simulation software for optimizing key nuclear reactor materials"
+    },
+    "program": {
+      "zh": "国家 863 计划项目",
+      "en": "National 863 Program"
+    },
+    "role": {
+      "zh": "课题负责人",
+      "en": "Research task lead"
+    },
+    "number": "2015AA01A303",
+    "source": "projects",
+    "related": "kernel",
+    "description": {
+      "zh": "开展面向核反应堆关键材料的高性能数值模拟软件研究。下方计算内核论文的致谢列有该项目编号。",
+      "en": "High-performance numerical simulation software for key nuclear reactor materials. The kernel optimization paper linked below acknowledges this grant."
+    }
+  },
+  {
+    "id": "project-5",
+    "period": "2008–2010",
+    "title": {
+      "zh": "多范例并行构件及其关键技术研究",
+      "en": "Multi-paradigm parallel components and key technologies"
+    },
+    "program": {
+      "zh": "教育部科学技术研究重点项目",
+      "en": "Ministry of Education key research project"
+    },
+    "role": {
+      "zh": "项目负责人",
+      "en": "Project lead"
+    },
+    "number": "108008",
+    "source": "projects",
+    "related": null,
+    "description": {
+      "zh": "研究多范例并行构件及其关键技术，是公开记录中的教育部科学技术研究重点项目。",
+      "en": "Research on multi-paradigm parallel components and their key technologies, recorded as a Ministry of Education key research project."
+    }
+  },
+  {
+    "id": "project-6",
+    "period": "2006–2008",
+    "title": {
+      "zh": "高生产率并行模型与编译验证",
+      "en": "High-productivity parallel models and compilation verification"
+    },
+    "program": {
+      "zh": "国家 863 计划项目",
+      "en": "National 863 Program"
+    },
+    "role": {
+      "zh": "项目负责人",
+      "en": "Project lead"
+    },
+    "number": "2006AA01Z105",
+    "source": "projects",
+    "related": null,
+    "description": {
+      "zh": "围绕高生产率并行模型及编译验证开展研究，是公开记录中的国家863计划项目。",
+      "en": "Research on high-productivity parallel models and compilation verification, recorded as a National 863 Program project."
+    }
+  }
+]

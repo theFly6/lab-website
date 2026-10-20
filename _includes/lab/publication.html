@@ -1,0 +1,11 @@
+{% assign pub = include.pub %}
+<article class="publication" data-publication data-year="{{ pub.year | escape }}" data-topic="{{ pub.topic | escape }}">
+  <div class="pub-year">{{ pub.year | escape }}</div>
+  <div class="pub-body">
+    <div class="pub-venue">{{ pub.venue | escape }} · {{ pub.volume | escape }}{% if pub.issue %}({{ pub.issue | escape }}){% endif %}: {{ pub.pages | escape }}</div>
+    <h3><a href="https://doi.org/{{ pub.doi | escape }}">{{ pub.title | escape }}</a></h3>
+    <p class="authors">{{ pub.authors | join: ', ' | escape | replace: 'Jianjiang Li', '<strong>Jianjiang Li</strong>' }}</p>
+    {% if include.summary %}<p>{{ pub.summary[lang] | escape }}</p>{% endif %}
+    <div class="pub-links"><a href="https://doi.org/{{ pub.doi | escape }}">DOI ↗</a><a href="{{ pub.source | escape }}">{{ t.publisher_link | escape }} ↗</a><span class="tag">{{ t.topics[pub.topic] | escape }}</span></div>
+  </div>
+</article>

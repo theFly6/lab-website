@@ -1,0 +1,4 @@
+<p class="editorial-note">{{ t.research.note | escape }}</p>
+{% for item in site.data.research %}<article class="research-detail" id="{{ item.id | escape }}"><div class="research-index">0{{ forloop.index | escape }}</div><div><h2>{{ item.title[lang] | escape }}</h2><p class="lead">{{ item.short[lang] | escape }}</p><p>{{ item.description[lang] | escape }}</p><ul class="topic-list">{% for keyword in item.keywords %}<li>{{ keyword | escape }}</li>{% endfor %}</ul><div class="pub-links">{% for source_id in item.sources %}{% include lab/source.html id=source_id %}{% endfor %}</div></div></article>{% endfor %}
+{% include section.html %}
+<div class="inline-cta"><div><h2>{{ t.research.cta_title | escape }}</h2><p>{{ t.research.cta_text | escape }}</p></div><a class="button primary" href="{{ home_url | append: 'projects/' | relative_url | escape }}">{{ t.nav.projects | escape }} →</a></div>

@@ -1,0 +1,13 @@
+{% assign faculty_people = site.data.people | where: 'category', 'faculty' %}
+{% for person in faculty_people %}
+<div class="person-profile"><img class="person-photo" src="{{ person.image | relative_url | escape }}" alt="{{ person.name[lang] | escape }}" width="240" height="300"><div><p class="eyebrow">{{ t.people.pi | escape }}</p><h2>{{ person.name[lang] | escape }}</h2><p class="person-role">{{ person.role[lang] | escape }}</p><p>{{ person.bio[lang] | escape }}</p><div class="pub-links"><a href="{{ person.url | escape }}">{{ t.profile_link | escape }} ↗</a><a href="mailto:{{ person.email | escape }}">{{ person.email | escape }}</a></div>{% include lab/source.html id='faculty' %}</div></div>
+<h2>{{ t.people.experience | escape }}</h2><ol class="timeline">{% for entry in person.timeline %}<li><span>{{ entry.date | escape }}</span><div>{{ entry.text[lang] | escape }}</div></li>{% endfor %}</ol>
+{% include lab/source.html id='post' %}
+{% endfor %}
+{% include section.html %}
+<h2>{{ t.people.students_title | escape }}</h2><p>{{ t.people.students_intro | escape }}</p>
+{% assign groups = 'doctoral,masters,alumni' | split: ',' %}
+<div class="pending-grid">{% for category in groups %}<div class="pending-block"><h3>{{ t.people.student_groups[forloop.index0] | escape }}</h3>{% assign members = site.data.people | where: 'category', category %}{% for member in members %}<article class="member-card">{% if member.image %}<img src="{{ member.image | relative_url | escape }}" alt="{{ member.name[lang] | escape }}" loading="lazy">{% endif %}<h4>{% if member.url %}<a href="{{ member.url | escape }}">{{ member.name[lang] | escape }}</a>{% else %}{{ member.name[lang] | escape }}{% endif %}</h4><p>{{ member.bio[lang] | escape }}</p></article>{% else %}<p><span class="todo">TODO</span> {{ t.people.pending | escape }}</p>{% endfor %}</div>{% endfor %}</div>
+{% include lab/source.html id='students' %}
+{% include section.html %}
+<h2>{{ t.people.context_title | escape }}</h2><p>{{ t.people.context | escape }}</p>{% include lab/source.html id='center' %}

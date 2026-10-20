@@ -1,0 +1,6 @@
+{% comment %}页面正文先于layout渲染，因此在共用入口建立语言上下文。{% endcomment %}
+{% assign lang = page.lang | default: 'zh' %}
+{% assign t = site.data.locales[lang] %}
+{% assign home_url = '/' | append: lang | append: '/' %}
+{% capture body_include %}lab/{{ page.page_key | escape }}.html{% endcapture %}
+{% include {{ body_include }} %}

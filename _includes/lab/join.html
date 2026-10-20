@@ -1,0 +1,6 @@
+<div class="join-intro"><p class="eyebrow">{{ t.join.kicker | escape }}</p><h2>{{ t.join.heading | escape }}</h2><p class="lead">{{ t.join.intro | escape }}</p><a class="button primary" href="mailto:lijianjiang@ustb.edu.cn">{{ t.join.email_button | escape }} ↗</a></div>
+<div class="degree-grid">{% for degree in t.join.degrees %}<article><span class="eyebrow">{{ degree.label | escape }}</span><h2>{{ degree.title | escape }}</h2><p>{{ degree.text | escape }}</p></article>{% endfor %}</div>
+{% include section.html %}
+<h2>{{ t.join.steps_title | escape }}</h2><ol class="application-steps">{% for step in t.join.steps %}<li><h3>{{ step.title | escape }}</h3><p>{{ step.text | escape }}</p></li>{% endfor %}</ol>
+<div class="notice"><h3>{{ t.join.notice_title | escape }}</h3><p>{{ t.join.notice | escape }}</p><p><span class="todo">TODO</span> {{ t.join.pending | escape }}</p>{% include lab/source.html id='admissions' %}</div>
+<div class="pub-links"><a href="https://yzxc.ustb.edu.cn/">{{ t.admissions_link | escape }} ↗</a><a href="https://scce.ustb.edu.cn/">{{ t.school | escape }} ↗</a></div>

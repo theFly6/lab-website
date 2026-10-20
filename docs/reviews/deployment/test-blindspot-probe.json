@@ -1,0 +1,18 @@
+{
+  "probe_type": "synthetic harness logic only, not real browser result",
+  "prior_page_errors": [
+    "390px /zh/: horizontal overflow"
+  ],
+  "injected_browser_errors": {
+    "errors": [
+      "Synthetic TypeError: broken feature"
+    ]
+  },
+  "final_errors": [
+    "390px /zh/: 页面验收失败",
+    "浏览器脚本错误: Synthetic TypeError: broken feature"
+  ],
+  "exit_code": 1,
+  "prior_page_failure_preserved": true,
+  "browser_error_causes_nonzero_exit": true
+}

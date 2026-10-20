@@ -1,0 +1,2 @@
+{% assign source = site.data.sources[include.id] %}
+<a class="source-link" href="{{ source.url | escape }}">{{ t.source | escape }} · {{ source.label[lang] | escape }} ↗</a>

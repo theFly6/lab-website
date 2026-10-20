@@ -1,0 +1,178 @@
+{
+  "html_lang": "en",
+  "locale": "en_US",
+  "site_name": "Li Jianjiang Group",
+  "institution_short": "USTB · Beijing",
+  "institution": "University of Science and Technology Beijing",
+  "school": "School of Computer and Communication Engineering",
+  "description": "Li Jianjiang Group at USTB: high-performance computing, parallel and distributed systems, cloud computing and big data. Explore research, publications and graduate study information.",
+  "nav": {
+    "more": "More",
+    "home": "Home",
+    "people": "People",
+    "research": "Research",
+    "projects": "Projects",
+    "publications": "Publications",
+    "news": "News",
+    "join": "Join Us",
+    "contact": "Contact"
+  },
+  "eyebrows": {
+    "people": "PEOPLE",
+    "research": "RESEARCH",
+    "projects": "PROJECTS",
+    "publications": "PUBLICATIONS",
+    "news": "NEWS",
+    "join": "JOIN US",
+    "contact": "CONTACT"
+  },
+  "intros": {
+    "people": "Connecting computer systems research, parallel computing and practical applications.",
+    "research": "Efficient and scalable computing, from computational kernels to distributed platforms.",
+    "projects": "Explore the context of our work through verifiable public project records.",
+    "publications": "Selected work in high-performance computing, scientific software, distributed storage and data processing.",
+    "news": "Research, practice and academic updates.",
+    "join": "Interested in computer systems and parallel computing? Start by exploring our research.",
+    "contact": "Get in touch to discuss research and academic exchange."
+  },
+  "skip": "Skip to content",
+  "language": "Language",
+  "language_label": "EN",
+  "menu": "Toggle navigation",
+  "navigation": "Main navigation",
+  "source": "Source",
+  "profile_link": "Official faculty profile",
+  "admissions_link": "Graduate admissions",
+  "publisher_link": "Publisher",
+  "address": "30 Xueyuan Road, Haidian District, Beijing, China",
+  "all_research": "Explore research",
+  "all_publications": "All publications",
+  "all_news": "All news",
+  "topics": {
+    "hpc": "High-performance computing",
+    "storage": "Distributed storage",
+    "systems": "Distributed systems"
+  },
+  "footer": {
+    "contact": "CONTACT",
+    "explore": "EXPLORE",
+    "credit": "Built with",
+    "preview": "Local draft · Public sources checked 2026-10-19 · Group name, member roster and admissions details await confirmation"
+  },
+  "hero": {
+    "kicker": "LI JIANJIANG GROUP / USTB",
+    "heading": "Efficient computing.\nScalable systems.",
+    "subheading": "High-performance computing · Parallel & distributed systems",
+    "text": "At USTB, we study parallel computing, cloud computing and big data, connecting system optimization with scientific and engineering applications.",
+    "research": "Explore our research",
+    "join": "Join Us",
+    "image_alt": "Abstract diagram of compute nodes, memory and interconnects",
+    "caption": "Computing · Data · Systems — conceptual illustration",
+    "disciplines": "COMPUTING · DATA · SYSTEMS"
+  },
+  "home": {
+    "about_kicker": "ABOUT THE GROUP",
+    "about_title": "Systems research for real problems",
+    "people_link": "Meet the people",
+    "about": "Professor Jianjiang Li works on high-performance, parallel and distributed computing, cloud computing and big data, and integrated intelligent supercomputing applications. This site brings together his public profile and verified selected work.",
+    "focus_title": "A systems perspective",
+    "focus": "From multicore parallelism and program optimization to distributed data management and scientific software for applications such as materials simulation.",
+    "research_title": "Research directions",
+    "publications_kicker": "SELECTED WORK",
+    "publications_title": "Methods meet systems",
+    "news_title": "Recent public updates",
+    "join_title": "Explore computing with us",
+    "join_text": "Learn about research directions for doctoral and master’s study. Eligibility, places and timelines depend on annual university and school notices and confirmation from the supervisor.",
+    "join_link": "Study and contact information"
+  },
+  "people": {
+    "pi": "PRINCIPAL INVESTIGATOR",
+    "experience": "Education & research experience",
+    "students_title": "Graduate students & alumni",
+    "students_intro": "The public student directory does not provide a verified complete roster. The categories below await group input; coauthorship alone does not establish current membership.",
+    "student_groups": [
+      "Doctoral students",
+      "Master’s students",
+      "Alumni"
+    ],
+    "pending": "Names, research interests and personal pages to be supplied.",
+    "context_title": "Related research platform",
+    "context": "The official team profile of the Ministry of Education Engineering Research Center for Integrated Intelligent Supercomputing Applications lists Professor Li. This is a broader research team; its full membership and achievements are not attributed to his individual group here."
+  },
+  "research": {
+    "note": "These themes synthesize the official research profile, public projects and selected papers. Specific research topics should be confirmed with the supervisor.",
+    "cta_title": "How do research themes become applications?",
+    "cta_text": "Explore the project records for the context of parallel algorithms, compilation and scientific computing."
+  },
+  "projects": {
+    "note": "These are historical public records. Dates are the execution periods stated by the sources and do not establish current activity or completion. Unpublished funding and details are omitted.",
+    "role": "Professor Li’s role",
+    "number": "Public grant number",
+    "related": "Related paper (funding acknowledgement checked)"
+  },
+  "publications": {
+    "note": "A verified selection, not a complete bibliography. Years follow journal volumes and issues; the two 2021 papers appeared online in 2020. Original English titles are retained.",
+    "search_label": "Search publications",
+    "placeholder": "Title, author or keyword",
+    "year": "Year",
+    "all_years": "All years",
+    "topic": "Research topic",
+    "all_topics": "All topics",
+    "count": "{count} publications shown",
+    "empty": "No matching publications. Try different keywords or filters.",
+    "noscript": "All publications are shown. Enable JavaScript to use the filters."
+  },
+  "news": {
+    "category": "Research practice",
+    "original": "Read the school report",
+    "source_note": "A summary of an official school report, using its original publication date.",
+    "more_title": "More group updates",
+    "more": "Seminars, acceptances, graduations and activity records await information from the group."
+  },
+  "join": {
+    "kicker": "EXPLORE · DISCUSS · RESEARCH",
+    "heading": "Start with a question that interests you",
+    "intro": "Students interested in high-performance computing, parallel computing, distributed systems, cloud computing and big data are welcome to explore the research and contact Professor Li through his public email.",
+    "email_button": "Email Professor Li",
+    "degrees": [
+      {
+        "label": "DOCTORAL STUDY",
+        "title": "Investigate systems in depth",
+        "text": "Professor Li is a doctoral supervisor. Read the selected work to learn about related research. Programs, application routes, eligibility and places must be checked against annual admissions documents and confirmed with the supervisor."
+      },
+      {
+        "label": "MASTER’S STUDY",
+        "title": "Connect methods with practice",
+        "text": "Explore parallel programming, distributed data management and scientific software. Degree categories, examination or recommendation requirements, and admissions plans follow the annual official notices."
+      }
+    ],
+    "steps_title": "Suggested steps to learn more",
+    "steps": [
+      {
+        "title": "Explore the research",
+        "text": "Read the research pages and selected publications, and identify questions that interest you."
+      },
+      {
+        "title": "Prepare for a conversation",
+        "text": "An introductory email can briefly describe your background, research interests and relevant projects. This is communication advice, not a formal application requirement."
+      },
+      {
+        "title": "Check annual admissions notices",
+        "text": "Use the university admissions site and school notices to confirm programs, dates and formal procedures. Email correspondence does not replace an application."
+      }
+    ],
+    "notice_title": "Admissions information",
+    "notice": "At the time of checking, the faculty admissions page had no entries. This page introduces research and contact routes; it does not promise places, admission or funding.",
+    "pending": "Admissions year, doctoral/master’s plans, eligibility, assessment and funding policies require confirmation."
+  },
+  "contact": {
+    "correspondence": "ACADEMIC & ADMISSIONS ENQUIRIES",
+    "name": "Professor Jianjiang Li",
+    "postcode": "Postal code 100083",
+    "visit_title": "Visits & academic exchange",
+    "office": "The school’s English profile lists room 826, MEE Building.",
+    "visit": "This is an older profile. The current office and the building’s Chinese name await confirmation; please arrange visits by email.",
+    "links_title": "Official resources",
+    "center": "Engineering Research Center for Integrated Intelligent Supercomputing Applications"
+  }
+}

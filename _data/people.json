@@ -1,0 +1,49 @@
+[
+  {
+    "id": "jianjiang-li",
+    "name": {
+      "zh": "李建江",
+      "en": "Jianjiang Li"
+    },
+    "role": {
+      "zh": "教授 · 博士生导师",
+      "en": "Professor · Doctoral Supervisor"
+    },
+    "image": "/assets/jianjiang-li.jpg",
+    "email": "lijianjiang@ustb.edu.cn",
+    "url": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/index.htm",
+    "bio": {
+      "zh": "北京科技大学计算机与通信工程学院教授、博士生导师。2005 年获清华大学计算机系工学博士学位，同年进入北京科技大学。研究方向包括高性能计算、并行计算、分布式计算、云计算与大数据及智能超算融合应用技术。",
+      "en": "Professor and doctoral supervisor in the School of Computer and Communication Engineering at USTB. He received his Ph.D. in engineering from the Department of Computer Science at Tsinghua University in 2005 and joined USTB that year. His research includes high-performance, parallel and distributed computing, cloud computing and big data, and integrated intelligent supercomputing applications."
+    },
+    "timeline": [
+      {
+        "date": "2005",
+        "text": {
+          "zh": "清华大学计算机系，获工学博士学位。",
+          "en": "Ph.D. in engineering, Department of Computer Science, Tsinghua University."
+        }
+      },
+      {
+        "date": "2005",
+        "text": {
+          "zh": "进入北京科技大学计算机系工作。",
+          "en": "Joined the Department of Computer Science at USTB."
+        }
+      },
+      {
+        "date": "2014.01–2015.01",
+        "text": {
+          "zh": "美国天普大学访问学者；时间依据 2017 年论文作者简介。",
+          "en": "Visiting scholar at Temple University; dates from the author biography in the 2017 transaction middleware paper."
+        }
+      }
+    ],
+    "sources": [
+      "faculty",
+      "college",
+      "post"
+    ],
+    "category": "faculty"
+  }
+]

@@ -1,8 +1,28 @@
 <head>
-  {% include analytics.html %}
-  {% include verification.html %}
-  {% include meta.html %}
-  {% include fonts.html %}
-  {% include styles.html %}
-  {% include scripts.html %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ t.nav[page.page_key] | default: page.title | escape }} | {{ t.site_name | escape }}</title>
+  <meta name="description" content="{{ t.description | escape }}">
+  <meta property="og:title" content="{{ t.nav[page.page_key] | default: page.title | escape }} | {{ t.site_name | escape }}">
+  <meta property="og:description" content="{{ t.description | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{ t.locale | escape }}">
+  <meta name="theme-color" content="#102e49">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url | escape }}" sizes="16x16 32x32 48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32.png' | relative_url | escape }}">
+  <link rel="icon" type="image/svg+xml" sizes="any" href="{{ '/assets/mark.svg' | relative_url | escape }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url | escape }}">
+  {% if site.url != '' %}<link rel="canonical" href="{{ page.url | absolute_url | escape }}">{% endif %}
+  {% if page.page_key %}
+    {% for language in site.data.navigation.languages %}
+      {% assign alternative = site.pages | where: 'page_key', page.page_key | where: 'lang', language | first %}
+      {% if alternative %}<link rel="alternate" hreflang="{{ site.data.locales[language].html_lang | escape }}" href="{{ alternative.url | absolute_url | escape }}">{% endif %}
+    {% endfor %}
+  {% endif %}
+  {% comment %}模板组件样式本地编译，去掉字体及脚本 CDN 依赖。{% endcomment %}
+  {% assign styles = site.pages | where_exp: 'file', "file.url contains '/_styles'" | sort: 'path' %}
+  {% for style in styles %}{% unless style.url contains '.map' or style.url contains 'zz-lab' %}
+    <link href="{{ style.path | replace: '.scss', '.css' | relative_url | escape }}" rel="stylesheet">
+  {% endunless %}{% endfor %}
+  <link href="{{ '/_styles/zz-lab.css' | relative_url | escape }}" rel="stylesheet">
 </head>
