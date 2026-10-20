@@ -62,6 +62,8 @@ bash start.sh
 
 已填入：1位已核实导师、4个依据官方资料归纳的研究主题、6项历史项目、7篇核实后的论文、1条学院公开新闻、公开邮箱与官方招生入口。补充了3项公开任职记录、2项学术服务、2门课程、2本公开书名及HPCDE和工程研究中心两个相关科研平台。博士/硕士/毕业生分类已预留，未填造姓名。论文按题目/作者关键词、年份、主题筛选，关闭 JavaScript 也可读全部论文。
 
+导师页还展示5项教学奖励、2类人才培养成果及研究生课程认定，来源为用户提供并与学校公开简介对应的资料。奖项保留原始届次、等级与括号信息；“70余篇”仅为公开简介中的历史记录。采用边界与未展示的评教排名说明见 [TEACHING_CONTENT.md](docs/TEACHING_CONTENT.md)。
+
 基础论文与项目核查日期为 **2026-10-19**，HPCDE及导师扩展资料核查于 **2026-10-20**；访问日期不代表原文更新日期，这7篇也不构成最新或完整成果清单。来源与边界见 [docs/SOURCES.md](docs/SOURCES.md) 和 [HPCDE补充记录](docs/HPCDE_RESEARCH.md)，尚缺信息见 [TODO.md](TODO.md)，构建和浏览器检查见 [docs/TESTING.md](docs/TESTING.md)。
 
 ## 双语与目录
@@ -101,7 +103,7 @@ JSON 采用 UTF-8，字符串中的双引号需要写为 `\"`；建议编辑前�
 
 **添加项目**：在 `_data/projects.json` 追加，提供双语 `title`、`program`、`role`、`description`，以及 `period`、`source`（指向sources中的键）、`number`（未知为null）。`related`只在有证据的论文资助对应关系时设置为论文id。
 
-**导师与科研平台**：导师的 `appointments`、`academic_service`、`teaching` 和 `books` 分别维护任职、学术服务、课程与著作。`books` 的 `first_author` 仅表示来源列出的第一作者，不能替代完整作者列表。相关平台维护在 `_data/platforms.json`，保留 `scope` 范围说明，避免把多导师平台的成员和整体成果归入个人课题组。
+**导师与科研平台**：导师的 `appointments`、`academic_service`、`teaching` 和 `books` 分别维护任职、学术服务、课程与著作；`teaching_awards`、`mentoring` 分别维护教学奖励与人才培养记录，课程可用 `recognition` 增加双语教学认定。奖项的 `edition` 是届次，`record` 为原文括号信息。`books` 的 `first_author` 仅表示来源列出的第一作者，不能替代完整作者列表。相关平台维护在 `_data/platforms.json`，保留 `scope` 范围说明，避免把多导师平台的成员和整体成果归入个人课题组。
 
 **添加新闻**：在 `_data/news.json` 顶部追加，提供唯一 `id`、ISO格式 `date`、双语 `title` / `summary` / `body`、`source`。页面与首页自动显示，无需修改布局；日期采用事件公告的实际发布日期。
 

@@ -104,6 +104,22 @@ section.page-heading { padding-top: 48px; padding-bottom: 40px; background: #f0f
 .course-grid { margin: 26px 0 18px; }
 .course-card { padding: 24px; background: #edf3f5; }
 .course-card h3 { font-size: 1.05rem; margin: 12px 0 0; }
+.course-card .course-recognition { margin: 16px 0 0; color: var(--muted); font-size: .82rem; }
+.profile-research-record { font-size: .9rem; color: #3c5364; }
+.person-profile .profile-count-note { font-size: .74rem; color: var(--muted); margin-top: -8px; }
+.teaching-outcomes-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 44px; margin: 30px 0; }
+.teaching-outcomes-grid > div { min-width: 0; }
+.teaching-outcomes-grid h3 { font-size: 1.15rem; }
+.honors-intro { color: var(--muted); font-size: .84rem; }
+.teaching-awards { list-style: none; margin: 0; padding: 0; }
+.teaching-awards li { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 18px; padding: 18px 0; border-top: 1px solid var(--line); }
+.award-edition { color: var(--teal); font-size: .8rem; font-weight: 600; }
+.teaching-awards h4, .mentoring-card h4 { margin: 0 0 8px; color: var(--navy); font-size: .95rem; font-weight: 600; line-height: 1.6; }
+.teaching-awards .award-level { margin: 0; font-size: .85rem; }
+.teaching-awards .award-record { margin: 3px 0 0; font-size: .75rem; color: var(--muted); }
+.mentoring-list { display: grid; gap: 22px; }
+.mentoring-card { padding: 24px; background: #edf3f5; border-left: 3px solid #8ebbc3; }
+.mentoring-card p { margin: 0; font-size: .86rem; }
 .books-heading { margin-top: 32px; }
 .book-list li { padding-bottom: 12px; }
 .book-list p { margin: 8px 0 0; color: var(--muted); font-size: .8rem; overflow-wrap: anywhere; }
@@ -238,6 +254,9 @@ section.page-heading { padding-top: 48px; padding-bottom: 40px; background: #f0f
   .section-heading { align-items: flex-start; flex-direction: column; gap: 14px; margin-bottom: 25px; }
   .about-grid, .updates-grid, .contact-grid, .footer-grid, .degree-grid, .project-list { grid-template-columns: 1fr; gap: 28px; }
   .profile-facts-grid, .course-grid, .platform-grid { grid-template-columns: 1fr; gap: 22px; }
+  .teaching-outcomes-grid { grid-template-columns: 1fr; gap: 32px; }
+  .teaching-awards li { grid-template-columns: 76px minmax(0, 1fr); gap: 12px; }
+  .mentoring-card { padding: 22px; }
   .platform-card { padding: 24px; }
   .about-aside { margin-top: 0; } .intro-copy { font-size: 1rem; }
   .research-tile { padding: 20px 16px 35px; } .research-tile h3 { margin-top: 18px; font-size: .95rem; } .research-tile p { font-size: .78rem; }

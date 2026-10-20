@@ -13,8 +13,8 @@
     "email": "lijianjiang@ustb.edu.cn",
     "url": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/index.htm",
     "bio": {
-      "zh": "北京科技大学计算机与通信工程学院教授、博士生导师。2005 年获清华大学计算机系工学博士学位，同年进入北京科技大学。研究方向包括高性能计算、并行计算、分布式计算、云计算与大数据及智能超算融合应用技术。",
-      "en": "Professor and doctoral supervisor in the School of Computer and Communication Engineering at USTB. He received his Ph.D. in engineering from the Department of Computer Science at Tsinghua University in 2005 and joined USTB that year. His research includes high-performance, parallel and distributed computing, cloud computing and big data, and integrated intelligent supercomputing applications."
+      "zh": "清华大学工学博士，任教于北京科技大学计算机与通信工程学院。研究方向包括高性能计算、并行与分布式计算、云计算与大数据，以及智能超算融合应用技术。",
+      "en": "With a Ph.D. from Tsinghua University, Professor Li works at USTB’s School of Computer and Communication Engineering. His research covers high-performance, parallel and distributed computing, cloud computing and big data, and integrated intelligent supercomputing applications."
     },
     "timeline": [
       {
@@ -89,6 +89,10 @@
         "title": {
           "zh": "高等计算机系统结构",
           "en": "Advanced Computer Architecture"
+        },
+        "recognition": {
+          "zh": "导师公开简介记载，该课程曾获“北京科技大学研究生免检课程”。",
+          "en": "The faculty profile identifies it as a USTB graduate course exempt from inspection (研究生免检课程)."
         }
       }
     ],
@@ -120,6 +124,105 @@
         "year": null,
         "edition": null,
         "authors": null
+      }
+    ],
+    "research_record": {
+      "zh": "据导师公开简介，科研经历涉及国家863计划、国家重点研发计划课题及教育部科学技术研究重点项目；简介记载SCI、EI学术论文70余篇。",
+      "en": "The public faculty profile reports research supported by the National 863 Program, the National Key R&D Program and key research projects of the Ministry of Education. It records more than 70 SCI/EI-indexed papers."
+    },
+    "teaching_awards": [
+      {
+        "id": "graduate-education-4",
+        "edition": 4,
+        "title": {
+          "zh": "研究生教育奖",
+          "en": "Graduate Education Award"
+        },
+        "level": null,
+        "record": null,
+        "source": "faculty"
+      },
+      {
+        "id": "teaching-achievement-24",
+        "edition": 24,
+        "title": {
+          "zh": "教育教学成果奖",
+          "en": "Education and Teaching Achievement Award"
+        },
+        "level": {
+          "zh": "二等奖",
+          "en": "Second prize"
+        },
+        "record": "1/1",
+        "source": "faculty"
+      },
+      {
+        "id": "teaching-achievement-25-first",
+        "edition": 25,
+        "title": {
+          "zh": "教育教学成果奖",
+          "en": "Education and Teaching Achievement Award"
+        },
+        "level": {
+          "zh": "一等奖",
+          "en": "First prize"
+        },
+        "record": "5/5",
+        "source": "faculty"
+      },
+      {
+        "id": "teaching-achievement-25-second",
+        "edition": 25,
+        "title": {
+          "zh": "教育教学成果奖",
+          "en": "Education and Teaching Achievement Award"
+        },
+        "level": {
+          "zh": "二等奖",
+          "en": "Second prize"
+        },
+        "record": "1/5",
+        "source": "faculty"
+      },
+      {
+        "id": "teaching-achievement-27",
+        "edition": 27,
+        "title": {
+          "zh": "教育教学成果奖",
+          "en": "Education and Teaching Achievement Award"
+        },
+        "level": {
+          "zh": "二等奖",
+          "en": "Second prize"
+        },
+        "record": "3/4",
+        "source": "faculty"
+      }
+    ],
+    "mentoring": [
+      {
+        "id": "graduate-recognition",
+        "title": {
+          "zh": "研究生培养",
+          "en": "Graduate student development"
+        },
+        "description": {
+          "zh": "指导的研究生曾多人次获得国家奖学金、优秀学位论文等荣誉。",
+          "en": "Graduate students he supervised have received National Scholarships and recognition for outstanding theses."
+        },
+        "source": "faculty"
+      },
+      {
+        "id": "microsoft-hpc-teams",
+        "title": {
+          "zh": "微软HPC学生团队成果",
+          "en": "Student team achievements in Microsoft’s HPC program"
+        },
+        "description": {
+          "zh": "指导的两个学生团队分别获“微软HPC（高性能计算）学者项目—学生及教师研究奖”中国赛区第4名和第5名。",
+          "en": "Two student teams he supervised placed fourth and fifth in the China division of the Microsoft HPC Scholar Program—Student and Faculty Research Awards."
+        },
+        "source": "faculty"
       }
     ]
   }

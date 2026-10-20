@@ -122,7 +122,15 @@
     "books_note": "书名、出版社、第一作者与 ISBN 已对照学校著作记录；书名保留中文原名。第一作者不代表完整作者名单，版次、出版年份和完整作者仍待补充。",
     "platform_open": "访问平台网站",
     "platform_directory": "查看公开团队目录",
-    "first_author": "官网列示第一作者"
+    "first_author": "官网列示第一作者",
+    "research_record_note": "论文数量沿用公开简介的历史记录，不作为本站实时统计。",
+    "honors_title": "教学荣誉与人才培养",
+    "awards_title": "教学荣誉",
+    "awards_intro": "以下为导师公开简介列示的北京科技大学校内奖项。",
+    "award_edition": "第{number}届",
+    "award_record": "原文记录",
+    "mentoring_title": "研究生与学生团队培养",
+    "honors_note": "届次、等级及括号内信息沿用公开简介；来源未注明具体获奖年份与完整学生名单，英文名称为本站翻译。"
   },
   "research": {
     "note": "以下主题根据导师官方研究方向、公开项目和代表性论文归纳；具体课题安排以导师确认为准。",

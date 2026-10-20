@@ -1,8 +1,6 @@
 {% assign faculty_people = site.data.people | where: 'category', 'faculty' %}
 {% for person in faculty_people %}
-<div class="person-profile"><img class="person-photo" src="{{ person.image | relative_url | escape }}" alt="{{ person.name[lang] | escape }}" width="240" height="300"><div><p class="eyebrow">{{ t.people.pi | escape }}</p><h2>{{ person.name[lang] | escape }}</h2><p class="person-role">{{ person.role[lang] | escape }}</p><p>{{ person.bio[lang] | escape }}</p><div class="pub-links"><a href="{{ person.url | escape }}">{{ t.profile_link | escape }} ↗</a><a href="mailto:{{ person.email | escape }}">{{ person.email | escape }}</a></div>{% include lab/source.html id='faculty' %}</div></div>
-<h2>{{ t.people.experience | escape }}</h2><ol class="timeline">{% for entry in person.timeline %}<li><span>{{ entry.date | escape }}</span><div>{{ entry.text[lang] | escape }}</div></li>{% endfor %}</ol>
-{% include lab/source.html id='post' %}
+<div class="person-profile"><img class="person-photo" src="{{ person.image | relative_url | escape }}" alt="{{ person.name[lang] | escape }}" width="240" height="300"><div><p class="eyebrow">{{ t.people.pi | escape }}</p><h2>{{ person.name[lang] | escape }}</h2><p class="person-role">{{ person.role[lang] | escape }}</p><p>{{ person.bio[lang] | escape }}</p><p class="profile-research-record">{{ person.research_record[lang] | escape }}</p><p class="profile-count-note">{{ t.people.research_record_note | escape }}</p><div class="pub-links"><a href="{{ person.url | escape }}">{{ t.profile_link | escape }} ↗</a><a href="mailto:{{ person.email | escape }}">{{ person.email | escape }}</a></div>{% include lab/source.html id='faculty' %}</div></div>
 {% include section.html %}
 <div class="profile-facts-grid">
   <article class="profile-facts"><h2>{{ t.people.appointments_title | escape }}</h2><ul>{% for item in person.appointments %}<li>{{ item[lang] | escape }}</li>{% endfor %}</ul></article>
@@ -13,10 +11,24 @@
 {% include section.html %}
 <h2>{{ t.people.teaching_title | escape }}</h2>
 <p class="editorial-note">{{ t.people.teaching_note | escape }}</p>
-<div class="course-grid">{% for course in person.teaching %}<article class="course-card"><p class="eyebrow">{{ course.level[lang] | escape }}</p><h3>{{ course.title[lang] | escape }}</h3></article>{% endfor %}</div>
+<div class="course-grid">{% for course in person.teaching %}<article class="course-card"><p class="eyebrow">{{ course.level[lang] | escape }}</p><h3>{{ course.title[lang] | escape }}</h3>{% if course.recognition %}<p class="course-recognition">{{ course.recognition[lang] | escape }}</p>{% endif %}</article>{% endfor %}</div>
 {% include lab/source.html id='faculty' %}
 <h3 class="books-heading">{{ t.people.books_title | escape }}</h3><ul class="book-list">{% for book in person.books %}<li><a href="{{ site.data.sources[book.source].url | escape }}">{{ book.title | escape }} ↗</a><p>{{ book.publisher[lang] | escape }} · {{ t.people.first_author | escape }}：{{ book.first_author | escape }}<br>ISBN {{ book.isbn | escape }}</p></li>{% endfor %}</ul>
 <p class="editorial-note">{{ t.people.books_note | escape }}</p>{% include lab/source.html id='center' %}
+{% include section.html %}
+<h2 id="teaching-honors">{{ t.people.honors_title | escape }}</h2>
+<div class="teaching-outcomes-grid">
+  <div><h3>{{ t.people.awards_title | escape }}</h3><p class="honors-intro">{{ t.people.awards_intro | escape }}</p>
+    <ul class="teaching-awards">{% for award in person.teaching_awards %}{% assign edition_number = award.edition | append: '' %}{% assign edition_label = t.people.award_edition | replace: '{number}', edition_number %}
+      <li><span class="award-edition">{{ edition_label | escape }}</span><div><h4>{{ award.title[lang] | escape }}</h4>{% if award.level %}<p class="award-level">{{ award.level[lang] | escape }}</p>{% endif %}{% if award.record %}<p class="award-record">{{ t.people.award_record | escape }} ({{ award.record | escape }})</p>{% endif %}</div></li>
+    {% endfor %}</ul>
+  </div>
+  <div><h3>{{ t.people.mentoring_title | escape }}</h3><div class="mentoring-list">{% for item in person.mentoring %}<article class="mentoring-card"><h4>{{ item.title[lang] | escape }}</h4><p>{{ item.description[lang] | escape }}</p></article>{% endfor %}</div></div>
+</div>
+<p class="editorial-note">{{ t.people.honors_note | escape }}</p>{% include lab/source.html id='faculty' %}
+{% include section.html %}
+<h2>{{ t.people.experience | escape }}</h2><ol class="timeline">{% for entry in person.timeline %}<li><span>{{ entry.date | escape }}</span><div>{{ entry.text[lang] | escape }}</div></li>{% endfor %}</ol>
+{% include lab/source.html id='post' %}
 {% endfor %}
 {% include section.html %}
 <h2>{{ t.people.students_title | escape }}</h2><p>{{ t.people.students_intro | escape }}</p>

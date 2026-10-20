@@ -122,7 +122,15 @@
     "books_note": "Titles, publisher, first authors and ISBNs were checked against university book records. Chinese titles are retained. First authors are not full author lists; editions, years and complete authorship await verification.",
     "platform_open": "Visit platform website",
     "platform_directory": "View public team directory",
-    "first_author": "First author listed by the university"
+    "first_author": "First author listed by the university",
+    "research_record_note": "The paper count is a historical figure from the public profile, not a live site total.",
+    "honors_title": "Teaching honors and student development",
+    "awards_title": "Teaching honors",
+    "awards_intro": "The public faculty profile lists the following USTB university-level awards.",
+    "award_edition": "Edition {number}",
+    "award_record": "Record in source",
+    "mentoring_title": "Graduate students and student teams",
+    "honors_note": "Award editions, levels and parenthetical records follow the public profile. It does not state award years or a complete student list. English award and program names are translations for this site."
   },
   "research": {
     "note": "These themes synthesize the official research profile, public projects and selected papers. Specific research topics should be confirmed with the supervisor.",
