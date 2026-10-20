@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hpcde",
+    "name": {
+      "zh": "高性能计算与数据工程实验室（HPCDE Lab）",
+      "en": "HPCDE Lab"
+    },
+    "url": "https://hpcde.hpcer.dev/",
+    "directory": "https://hpcde.hpcer.dev/people/",
+    "source": "hpcde_people",
+    "description": {
+      "zh": "公开站点使用“北京科技大学高性能计算与数据工程实验室”名称，团队目录列有李建江老师及多位研究人员。其研究背景涵盖高性能计算与数据工程。",
+      "en": "The public site identifies a high-performance computing and data engineering laboratory at USTB. Its directory includes Professor Jianjiang Li alongside other researchers."
+    },
+    "scope": {
+      "zh": "这是相关科研平台，不等同于本网站的李建江老师个人课题组。目录中的往届名单未注明具体导师，暂不据此填入本站成员或毕业生。",
+      "en": "This is a related research platform with a broader scope than the group presented here. Its alumni directory does not identify individual supervisors, so those names are not imported as Professor Li’s students or alumni."
+    }
+  },
+  {
+    "id": "ercis",
+    "name": {
+      "zh": "智能超算融合应用技术教育部工程研究中心",
+      "en": "Engineering Research Center for Integrated Intelligent Supercomputing Applications, Ministry of Education"
+    },
+    "url": "https://ercis.ustb.edu.cn/",
+    "directory": "https://ercis.ustb.edu.cn/?p=1390",
+    "source": "center",
+    "description": {
+      "zh": "中心2021年公开团队简介列有李建江老师，介绍其高性能计算、云计算与大数据研究，以及并行程序设计相关教学著作。",
+      "en": "The center’s 2021 team profile lists Professor Li and describes his work in high-performance computing, cloud computing and big data, together with books on parallel programming."
+    },
+    "scope": {
+      "zh": "中心包含多位教师及不同研究方向，中心整体成果和人数不作为李老师个人课题组的统计。",
+      "en": "The center includes several faculty members and research areas. Center-wide results and headcounts are not presented as those of Professor Li’s individual group."
+    }
+  }
+]

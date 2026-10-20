@@ -1,0 +1,932 @@
+{
+  "date": "2026-10-20",
+  "session": "ustb-hpcde-review",
+  "origin": "http://localhost:4000",
+  "cases": 24,
+  "overflowCases": 0,
+  "brokenImageCases": 0,
+  "clippedNewBlockCases": 0,
+  "languagePairsCorrect": true,
+  "peopleCaseCount": 8,
+  "peopleCardAndCourseCountsCorrect": true,
+  "contactHpcLinksCorrect": true,
+  "books320": [
+    {
+      "route": "/zh/people/",
+      "width": 320,
+      "overflow": false,
+      "books": [
+        {
+          "text": "\nMPI并行程序设计实例教程 ↗清华大学出版社 · 官网列示第一作者：张武生ISBN 978-7-302-18647-2\n",
+          "href": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/zzcg/72136/content/3236.htm",
+          "overflow": false,
+          "metadataOverflow": false
+        },
+        {
+          "text": "\n并行计算机及编程基础 ↗清华大学出版社 · 官网列示第一作者：李建江ISBN 978-7-302-26016-5\n",
+          "href": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/zzcg/72136/content/3235.htm",
+          "overflow": false,
+          "metadataOverflow": false
+        }
+      ],
+      "newBlockOverflow": false
+    },
+    {
+      "route": "/en/people/",
+      "width": 320,
+      "overflow": false,
+      "books": [
+        {
+          "text": "\nMPI并行程序设计实例教程 ↗Tsinghua University Press · First author listed by the university：张武生ISBN 978-7-302-18647-2\n",
+          "href": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/zzcg/72136/content/3236.htm",
+          "overflow": false,
+          "metadataOverflow": false
+        },
+        {
+          "text": "\n并行计算机及编程基础 ↗Tsinghua University Press · First author listed by the university：李建江ISBN 978-7-302-26016-5\n",
+          "href": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/zzcg/72136/content/3235.htm",
+          "overflow": false,
+          "metadataOverflow": false
+        }
+      ],
+      "newBlockOverflow": false
+    }
+  ],
+  "floating320": {
+    "viewportHeight": 844,
+    "panelTop": 281.78125,
+    "escapeCloses": true,
+    "focusRestores": true,
+    "opened": true,
+    "panelRight": 289,
+    "viewportWidth": 320,
+    "panelBottom": 766,
+    "panelX": 16
+  },
+  "records": [
+    {
+      "route": "/zh/",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "来源 · HPCDE 公开网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/people/",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/people/",
+      "platformCards": [
+        {
+          "title": "高性能计算与数据工程实验室（HPCDE Lab）",
+          "overflow": false,
+          "textLength": 193,
+          "links": [
+            "https://hpcde.hpcer.dev/",
+            "https://hpcde.hpcer.dev/people/",
+            "https://hpcde.hpcer.dev/people/"
+          ]
+        },
+        {
+          "title": "智能超算融合应用技术教育部工程研究中心",
+          "overflow": false,
+          "textLength": 153,
+          "links": [
+            "https://ercis.ustb.edu.cn/",
+            "https://ercis.ustb.edu.cn/?p=1390",
+            "https://ercis.ustb.edu.cn/?p=1390"
+          ]
+        }
+      ],
+      "courseTitles": [
+        "并行计算导论",
+        "高等计算机系统结构"
+      ],
+      "facts": [
+        {
+          "title": "公开任职记录",
+          "items": 3,
+          "overflow": false
+        },
+        {
+          "title": "学术服务",
+          "items": 2,
+          "overflow": false
+        }
+      ],
+      "hpcLinks": [
+        {
+          "text": "来源 · HPCDE 导师介绍 ↗",
+          "href": "https://hpcde.hpcer.dev/author/%E6%9D%8E%E5%BB%BA%E6%B1%9F/"
+        },
+        {
+          "text": "访问平台网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "查看公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        },
+        {
+          "text": "来源 · HPCDE 公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/contact/",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/contact/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "HPCDE Lab 公开网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "HPCDE 公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "Source · HPCDE public website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/people/",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/people/",
+      "platformCards": [
+        {
+          "title": "HPCDE Lab",
+          "overflow": false,
+          "textLength": 496,
+          "links": [
+            "https://hpcde.hpcer.dev/",
+            "https://hpcde.hpcer.dev/people/",
+            "https://hpcde.hpcer.dev/people/"
+          ]
+        },
+        {
+          "title": "Engineering Research Center for Integrated Intelligent Supercomputing Applications, Ministry of Education",
+          "overflow": false,
+          "textLength": 540,
+          "links": [
+            "https://ercis.ustb.edu.cn/",
+            "https://ercis.ustb.edu.cn/?p=1390",
+            "https://ercis.ustb.edu.cn/?p=1390"
+          ]
+        }
+      ],
+      "courseTitles": [
+        "Introduction to Parallel Computing",
+        "Advanced Computer Architecture"
+      ],
+      "facts": [
+        {
+          "title": "Roles listed in public profiles",
+          "items": 3,
+          "overflow": false
+        },
+        {
+          "title": "Academic service",
+          "items": 2,
+          "overflow": false
+        }
+      ],
+      "hpcLinks": [
+        {
+          "text": "Source · HPCDE faculty profile ↗",
+          "href": "https://hpcde.hpcer.dev/author/%E6%9D%8E%E5%BB%BA%E6%B1%9F/"
+        },
+        {
+          "text": "Visit platform website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "View public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        },
+        {
+          "text": "Source · HPCDE public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/contact/",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/contact/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "HPCDE Lab public website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "HPCDE public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "来源 · HPCDE 公开网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/people/",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/people/",
+      "platformCards": [
+        {
+          "title": "高性能计算与数据工程实验室（HPCDE Lab）",
+          "overflow": false,
+          "textLength": 193,
+          "links": [
+            "https://hpcde.hpcer.dev/",
+            "https://hpcde.hpcer.dev/people/",
+            "https://hpcde.hpcer.dev/people/"
+          ]
+        },
+        {
+          "title": "智能超算融合应用技术教育部工程研究中心",
+          "overflow": false,
+          "textLength": 153,
+          "links": [
+            "https://ercis.ustb.edu.cn/",
+            "https://ercis.ustb.edu.cn/?p=1390",
+            "https://ercis.ustb.edu.cn/?p=1390"
+          ]
+        }
+      ],
+      "courseTitles": [
+        "并行计算导论",
+        "高等计算机系统结构"
+      ],
+      "facts": [
+        {
+          "title": "公开任职记录",
+          "items": 3,
+          "overflow": false
+        },
+        {
+          "title": "学术服务",
+          "items": 2,
+          "overflow": false
+        }
+      ],
+      "hpcLinks": [
+        {
+          "text": "来源 · HPCDE 导师介绍 ↗",
+          "href": "https://hpcde.hpcer.dev/author/%E6%9D%8E%E5%BB%BA%E6%B1%9F/"
+        },
+        {
+          "text": "访问平台网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "查看公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        },
+        {
+          "text": "来源 · HPCDE 公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/contact/",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/contact/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "HPCDE Lab 公开网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "HPCDE 公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "Source · HPCDE public website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/people/",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/people/",
+      "platformCards": [
+        {
+          "title": "HPCDE Lab",
+          "overflow": false,
+          "textLength": 496,
+          "links": [
+            "https://hpcde.hpcer.dev/",
+            "https://hpcde.hpcer.dev/people/",
+            "https://hpcde.hpcer.dev/people/"
+          ]
+        },
+        {
+          "title": "Engineering Research Center for Integrated Intelligent Supercomputing Applications, Ministry of Education",
+          "overflow": false,
+          "textLength": 540,
+          "links": [
+            "https://ercis.ustb.edu.cn/",
+            "https://ercis.ustb.edu.cn/?p=1390",
+            "https://ercis.ustb.edu.cn/?p=1390"
+          ]
+        }
+      ],
+      "courseTitles": [
+        "Introduction to Parallel Computing",
+        "Advanced Computer Architecture"
+      ],
+      "facts": [
+        {
+          "title": "Roles listed in public profiles",
+          "items": 3,
+          "overflow": false
+        },
+        {
+          "title": "Academic service",
+          "items": 2,
+          "overflow": false
+        }
+      ],
+      "hpcLinks": [
+        {
+          "text": "Source · HPCDE faculty profile ↗",
+          "href": "https://hpcde.hpcer.dev/author/%E6%9D%8E%E5%BB%BA%E6%B1%9F/"
+        },
+        {
+          "text": "Visit platform website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "View public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        },
+        {
+          "text": "Source · HPCDE public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/contact/",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/contact/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "HPCDE Lab public website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "HPCDE public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "来源 · HPCDE 公开网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/people/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/people/",
+      "platformCards": [
+        {
+          "title": "高性能计算与数据工程实验室（HPCDE Lab）",
+          "overflow": false,
+          "textLength": 193,
+          "links": [
+            "https://hpcde.hpcer.dev/",
+            "https://hpcde.hpcer.dev/people/",
+            "https://hpcde.hpcer.dev/people/"
+          ]
+        },
+        {
+          "title": "智能超算融合应用技术教育部工程研究中心",
+          "overflow": false,
+          "textLength": 153,
+          "links": [
+            "https://ercis.ustb.edu.cn/",
+            "https://ercis.ustb.edu.cn/?p=1390",
+            "https://ercis.ustb.edu.cn/?p=1390"
+          ]
+        }
+      ],
+      "courseTitles": [
+        "并行计算导论",
+        "高等计算机系统结构"
+      ],
+      "facts": [
+        {
+          "title": "公开任职记录",
+          "items": 3,
+          "overflow": false
+        },
+        {
+          "title": "学术服务",
+          "items": 2,
+          "overflow": false
+        }
+      ],
+      "hpcLinks": [
+        {
+          "text": "来源 · HPCDE 导师介绍 ↗",
+          "href": "https://hpcde.hpcer.dev/author/%E6%9D%8E%E5%BB%BA%E6%B1%9F/"
+        },
+        {
+          "text": "访问平台网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "查看公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        },
+        {
+          "text": "来源 · HPCDE 公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/contact/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/contact/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "HPCDE Lab 公开网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "HPCDE 公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "Source · HPCDE public website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/people/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/people/",
+      "platformCards": [
+        {
+          "title": "HPCDE Lab",
+          "overflow": false,
+          "textLength": 496,
+          "links": [
+            "https://hpcde.hpcer.dev/",
+            "https://hpcde.hpcer.dev/people/",
+            "https://hpcde.hpcer.dev/people/"
+          ]
+        },
+        {
+          "title": "Engineering Research Center for Integrated Intelligent Supercomputing Applications, Ministry of Education",
+          "overflow": false,
+          "textLength": 540,
+          "links": [
+            "https://ercis.ustb.edu.cn/",
+            "https://ercis.ustb.edu.cn/?p=1390",
+            "https://ercis.ustb.edu.cn/?p=1390"
+          ]
+        }
+      ],
+      "courseTitles": [
+        "Introduction to Parallel Computing",
+        "Advanced Computer Architecture"
+      ],
+      "facts": [
+        {
+          "title": "Roles listed in public profiles",
+          "items": 3,
+          "overflow": false
+        },
+        {
+          "title": "Academic service",
+          "items": 2,
+          "overflow": false
+        }
+      ],
+      "hpcLinks": [
+        {
+          "text": "Source · HPCDE faculty profile ↗",
+          "href": "https://hpcde.hpcer.dev/author/%E6%9D%8E%E5%BB%BA%E6%B1%9F/"
+        },
+        {
+          "text": "Visit platform website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "View public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        },
+        {
+          "text": "Source · HPCDE public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/contact/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/contact/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "HPCDE Lab public website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "HPCDE public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "来源 · HPCDE 公开网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/people/",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/people/",
+      "platformCards": [
+        {
+          "title": "高性能计算与数据工程实验室（HPCDE Lab）",
+          "overflow": false,
+          "textLength": 193,
+          "links": [
+            "https://hpcde.hpcer.dev/",
+            "https://hpcde.hpcer.dev/people/",
+            "https://hpcde.hpcer.dev/people/"
+          ]
+        },
+        {
+          "title": "智能超算融合应用技术教育部工程研究中心",
+          "overflow": false,
+          "textLength": 153,
+          "links": [
+            "https://ercis.ustb.edu.cn/",
+            "https://ercis.ustb.edu.cn/?p=1390",
+            "https://ercis.ustb.edu.cn/?p=1390"
+          ]
+        }
+      ],
+      "courseTitles": [
+        "并行计算导论",
+        "高等计算机系统结构"
+      ],
+      "facts": [
+        {
+          "title": "公开任职记录",
+          "items": 3,
+          "overflow": false
+        },
+        {
+          "title": "学术服务",
+          "items": 2,
+          "overflow": false
+        }
+      ],
+      "hpcLinks": [
+        {
+          "text": "来源 · HPCDE 导师介绍 ↗",
+          "href": "https://hpcde.hpcer.dev/author/%E6%9D%8E%E5%BB%BA%E6%B1%9F/"
+        },
+        {
+          "text": "访问平台网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "查看公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        },
+        {
+          "text": "来源 · HPCDE 公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/zh/contact/",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/en/contact/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "HPCDE Lab 公开网站 ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "HPCDE 公开团队目录 ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "Source · HPCDE public website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/people/",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/people/",
+      "platformCards": [
+        {
+          "title": "HPCDE Lab",
+          "overflow": false,
+          "textLength": 496,
+          "links": [
+            "https://hpcde.hpcer.dev/",
+            "https://hpcde.hpcer.dev/people/",
+            "https://hpcde.hpcer.dev/people/"
+          ]
+        },
+        {
+          "title": "Engineering Research Center for Integrated Intelligent Supercomputing Applications, Ministry of Education",
+          "overflow": false,
+          "textLength": 540,
+          "links": [
+            "https://ercis.ustb.edu.cn/",
+            "https://ercis.ustb.edu.cn/?p=1390",
+            "https://ercis.ustb.edu.cn/?p=1390"
+          ]
+        }
+      ],
+      "courseTitles": [
+        "Introduction to Parallel Computing",
+        "Advanced Computer Architecture"
+      ],
+      "facts": [
+        {
+          "title": "Roles listed in public profiles",
+          "items": 3,
+          "overflow": false
+        },
+        {
+          "title": "Academic service",
+          "items": 2,
+          "overflow": false
+        }
+      ],
+      "hpcLinks": [
+        {
+          "text": "Source · HPCDE faculty profile ↗",
+          "href": "https://hpcde.hpcer.dev/author/%E6%9D%8E%E5%BB%BA%E6%B1%9F/"
+        },
+        {
+          "text": "Visit platform website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "View public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        },
+        {
+          "text": "Source · HPCDE public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    },
+    {
+      "route": "/en/contact/",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": false,
+      "brokenImages": 0,
+      "alternate": "/zh/contact/",
+      "platformCards": [],
+      "courseTitles": [],
+      "facts": [],
+      "hpcLinks": [
+        {
+          "text": "HPCDE Lab public website ↗",
+          "href": "https://hpcde.hpcer.dev/"
+        },
+        {
+          "text": "HPCDE public team directory ↗",
+          "href": "https://hpcde.hpcer.dev/people/"
+        }
+      ],
+      "floatingExists": true,
+      "clippedNewBlocks": []
+    }
+  ]
+}

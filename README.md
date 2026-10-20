@@ -60,9 +60,9 @@ bash start.sh
 
 顶部一级导航为：首页、研究方向、科研项目、学术论文、更多、加入我们、联系我们；团队介绍和新闻动态放在「更多 / More」下拉菜单。点击或用键盘展开，移动端在主菜单内展开；`Escape` 先关闭下拉，再关闭手机菜单。访问团队或新闻页时，「更多」同步显示当前分组状态。
 
-已填入：1位已核实导师、4个依据官方资料归纳的研究主题、6项历史项目、7篇核实后的论文、1条学院公开新闻、公开邮箱与官方招生入口。博士/硕士/毕业生分类已预留，未填造姓名。论文按题目/作者关键词、年份、主题筛选，关闭 JavaScript 也可读全部论文。
+已填入：1位已核实导师、4个依据官方资料归纳的研究主题、6项历史项目、7篇核实后的论文、1条学院公开新闻、公开邮箱与官方招生入口。补充了3项公开任职记录、2项学术服务、2门课程、2本公开书名及HPCDE和工程研究中心两个相关科研平台。博士/硕士/毕业生分类已预留，未填造姓名。论文按题目/作者关键词、年份、主题筛选，关闭 JavaScript 也可读全部论文。
 
-内容核查日期为 **2026-10-19**，不代表全部来源均发表于当天，也不意味着这7篇构成最新或完整成果清单。所有重要来源与边界见 [docs/SOURCES.md](docs/SOURCES.md)，尚缺信息见 [TODO.md](TODO.md)，构建和浏览器检查见 [docs/TESTING.md](docs/TESTING.md)。
+基础论文与项目核查日期为 **2026-10-19**，HPCDE及导师扩展资料核查于 **2026-10-20**；访问日期不代表原文更新日期，这7篇也不构成最新或完整成果清单。来源与边界见 [docs/SOURCES.md](docs/SOURCES.md) 和 [HPCDE补充记录](docs/HPCDE_RESEARCH.md)，尚缺信息见 [TODO.md](TODO.md)，构建和浏览器检查见 [docs/TESTING.md](docs/TESTING.md)。
 
 ## 双语与目录
 
@@ -71,6 +71,7 @@ _data/
   locales/zh.json             # 中文导航、文案、招生与联系说明
   locales/en.json             # 对应英文，独立编辑
   people.json                 # 人员及分类
+  platforms.json              # 相关科研平台、公开入口与范围说明
   publications.json           # 论文、作者、DOI、年份、主题
   projects.json               # 项目、执行期、角色、编号与来源
   research.json               # 研究主题、关键词与来源
@@ -99,6 +100,8 @@ JSON 采用 UTF-8，字符串中的双引号需要写为 `\"`；建议编辑前�
 **添加人员**：在 `_data/people.json` 追加一项。分类 `category` 为 `faculty`、`doctoral`、`masters`、`alumni`。学生与毕业生只需 `id`、`category`、双语 `name` / `bio`，`image`、`url`可选；相应分类有数据时自动隐藏TODO。导师另有双语 `role`、`email`、`timeline` 字段。必须确认身份与展示授权，不凭共同作者关系添加。
 
 **添加项目**：在 `_data/projects.json` 追加，提供双语 `title`、`program`、`role`、`description`，以及 `period`、`source`（指向sources中的键）、`number`（未知为null）。`related`只在有证据的论文资助对应关系时设置为论文id。
+
+**导师与科研平台**：导师的 `appointments`、`academic_service`、`teaching` 和 `books` 分别维护任职、学术服务、课程与著作。`books` 的 `first_author` 仅表示来源列出的第一作者，不能替代完整作者列表。相关平台维护在 `_data/platforms.json`，保留 `scope` 范围说明，避免把多导师平台的成员和整体成果归入个人课题组。
 
 **添加新闻**：在 `_data/news.json` 顶部追加，提供唯一 `id`、ISO格式 `date`、双语 `title` / `summary` / `body`、`source`。页面与首页自动显示，无需修改布局；日期采用事件公告的实际发布日期。
 

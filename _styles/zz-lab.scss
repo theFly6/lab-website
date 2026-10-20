@@ -96,6 +96,22 @@ section.page-heading { padding-top: 48px; padding-bottom: 40px; background: #f0f
 .about-aside { border-left: 3px solid #a4cbd1; padding-left: 26px; font-size: .9rem; }
 .about-aside strong { font-size: 1rem; color: var(--navy); }
 .about-aside p { margin-top: 12px; }
+.platform-note { color: var(--muted); font-size: .86rem; }
+.profile-facts-grid, .course-grid, .platform-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.profile-facts { border-top: 2px solid #6c9ca6; padding-top: 24px; }
+.profile-facts h2 { font-size: 1.35rem; }
+.profile-facts li { margin-bottom: 12px; font-size: .9rem; }
+.course-grid { margin: 26px 0 18px; }
+.course-card { padding: 24px; background: #edf3f5; }
+.course-card h3 { font-size: 1.05rem; margin: 12px 0 0; }
+.books-heading { margin-top: 32px; }
+.book-list li { padding-bottom: 12px; }
+.book-list p { margin: 8px 0 0; color: var(--muted); font-size: .8rem; overflow-wrap: anywhere; }
+.platform-card { border: 1px solid var(--line); padding: 28px; }
+.platform-card h3 { font-size: 1.1rem; }
+.platform-card p { font-size: .86rem; }
+.platform-card .platform-scope { color: var(--muted); padding-left: 15px; border-left: 2px solid #a4cbd1; font-size: .8rem; }
+.platform-card .pub-links { margin-bottom: 18px; }
 .source-link { color: var(--muted); font-size: .75rem; text-decoration: none; line-height: 1.7; }
 .source-link:hover { text-decoration: underline; }
 .research-grid { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); background: white; }
@@ -221,6 +237,8 @@ section.page-heading { padding-top: 48px; padding-bottom: 40px; background: #f0f
   .hero-actions { gap: 10px; margin-top: 26px; } .button { padding: 11px 15px; gap: 14px; font-size: .82rem; }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 14px; margin-bottom: 25px; }
   .about-grid, .updates-grid, .contact-grid, .footer-grid, .degree-grid, .project-list { grid-template-columns: 1fr; gap: 28px; }
+  .profile-facts-grid, .course-grid, .platform-grid { grid-template-columns: 1fr; gap: 22px; }
+  .platform-card { padding: 24px; }
   .about-aside { margin-top: 0; } .intro-copy { font-size: 1rem; }
   .research-tile { padding: 20px 16px 35px; } .research-tile h3 { margin-top: 18px; font-size: .95rem; } .research-tile p { font-size: .78rem; }
   .publication { grid-template-columns: 1fr; gap: 8px; padding: 23px 0; } .pub-year { font-size: .85rem; } .pub-body h3 { font-size: 1rem; }

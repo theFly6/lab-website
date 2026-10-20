@@ -42,8 +42,85 @@
     "sources": [
       "faculty",
       "college",
-      "post"
+      "post",
+      "hpcde_profile"
     ],
-    "category": "faculty"
+    "category": "faculty",
+    "appointments": [
+      {
+        "zh": "计算机科学与技术系副系主任",
+        "en": "Deputy head, Department of Computer Science and Technology"
+      },
+      {
+        "zh": "智能超算融合应用技术教育部工程研究中心常务副主任",
+        "en": "Executive deputy director, Engineering Research Center for Integrated Intelligent Supercomputing Applications, Ministry of Education"
+      },
+      {
+        "zh": "北京科技大学–Intel 多核技术实验室负责人",
+        "en": "Head of the USTB–Intel Multicore Technology Laboratory"
+      }
+    ],
+    "academic_service": [
+      {
+        "zh": "中国计算机学会高性能计算专业委员会委员",
+        "en": "Member, CCF Technical Committee on High Performance Computing"
+      },
+      {
+        "zh": "《大数据》编委",
+        "en": "Editorial board member, 《大数据》 (Chinese-language journal)"
+      }
+    ],
+    "teaching": [
+      {
+        "level": {
+          "zh": "本科生课程",
+          "en": "Undergraduate course"
+        },
+        "title": {
+          "zh": "并行计算导论",
+          "en": "Introduction to Parallel Computing"
+        }
+      },
+      {
+        "level": {
+          "zh": "研究生课程",
+          "en": "Graduate course"
+        },
+        "title": {
+          "zh": "高等计算机系统结构",
+          "en": "Advanced Computer Architecture"
+        }
+      }
+    ],
+    "books": [
+      {
+        "id": "mpi-book",
+        "title": "MPI并行程序设计实例教程",
+        "publisher": {
+          "zh": "清华大学出版社",
+          "en": "Tsinghua University Press"
+        },
+        "first_author": "张武生",
+        "isbn": "978-7-302-18647-2",
+        "source": "mpi_book",
+        "year": null,
+        "edition": null,
+        "authors": null
+      },
+      {
+        "id": "parallel-book",
+        "title": "并行计算机及编程基础",
+        "publisher": {
+          "zh": "清华大学出版社",
+          "en": "Tsinghua University Press"
+        },
+        "first_author": "李建江",
+        "isbn": "978-7-302-26016-5",
+        "source": "parallel_book",
+        "year": null,
+        "edition": null,
+        "authors": null
+      }
+    ]
   }
 ]

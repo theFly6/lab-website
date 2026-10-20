@@ -71,7 +71,7 @@
     "contact": "CONTACT",
     "explore": "EXPLORE",
     "credit": "Built with",
-    "preview": "Local draft · Public sources checked 2026-10-19 · Group name, member roster and admissions details await confirmation"
+    "preview": "Local draft · HPCDE and faculty profiles checked 2026-10-20 · Name, roster and admissions details await confirmation"
   },
   "hero": {
     "kicker": "LI JIANJIANG GROUP / USTB",
@@ -97,21 +97,32 @@
     "news_title": "Recent public updates",
     "join_title": "Explore computing with us",
     "join_text": "Learn about research directions for doctoral and master’s study. Eligibility, places and timelines depend on annual university and school notices and confirmation from the supervisor.",
-    "join_link": "Study and contact information"
+    "join_link": "Study and contact information",
+    "platform_note": "The HPCDE public team directory lists Professor Li. The site describes a high-performance computing and data engineering laboratory at USTB and provides further context for the broader research platform."
   },
   "people": {
     "pi": "PRINCIPAL INVESTIGATOR",
     "experience": "Education & research experience",
     "students_title": "Graduate students & alumni",
-    "students_intro": "The public student directory does not provide a verified complete roster. The categories below await group input; coauthorship alone does not establish current membership.",
+    "students_intro": "The HPCDE public directory lists alumni without identifying their individual supervisors. It therefore does not establish Professor Li’s own student roster. Current students and alumni still await group confirmation; coauthorship alone does not establish current membership.",
     "student_groups": [
       "Doctoral students",
       "Master’s students",
       "Alumni"
     ],
     "pending": "Names, research interests and personal pages to be supplied.",
-    "context_title": "Related research platform",
-    "context": "The official team profile of the Ministry of Education Engineering Research Center for Integrated Intelligent Supercomputing Applications lists Professor Li. This is a broader research team; its full membership and achievements are not attributed to his individual group here."
+    "context_title": "Related research platforms",
+    "context": "Explore the broader research platforms that list Professor Li through the public links below. Their records are kept distinct from this individual group’s membership and results.",
+    "appointments_title": "Roles listed in public profiles",
+    "service_title": "Academic service",
+    "roles_note": "These roles and service activities are listed in the university profile and corroborated by HPCDE. The sources provide no clear update date; no term of office is inferred.",
+    "teaching_title": "Teaching and books on parallel computing",
+    "teaching_note": "Courses are listed in the university profile; English titles are translations for this site and do not indicate the current teaching schedule.",
+    "books_title": "Books named in the public profile",
+    "books_note": "Titles, publisher, first authors and ISBNs were checked against university book records. Chinese titles are retained. First authors are not full author lists; editions, years and complete authorship await verification.",
+    "platform_open": "Visit platform website",
+    "platform_directory": "View public team directory",
+    "first_author": "First author listed by the university"
   },
   "research": {
     "note": "These themes synthesize the official research profile, public projects and selected papers. Specific research topics should be confirmed with the supervisor.",
@@ -186,7 +197,9 @@
     "visit_title": "Visits & academic exchange",
     "office": "The school’s English profile lists room 826, MEE Building.",
     "visit": "This is an older profile. The current office and the building’s Chinese name await confirmation; please arrange visits by email.",
-    "links_title": "Official resources",
-    "center": "Engineering Research Center for Integrated Intelligent Supercomputing Applications"
+    "links_title": "University and research platform links",
+    "center": "Engineering Research Center for Integrated Intelligent Supercomputing Applications",
+    "hpcde": "HPCDE Lab public website",
+    "hpcde_directory": "HPCDE public team directory"
   }
 }

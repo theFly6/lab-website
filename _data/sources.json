@@ -5,7 +5,7 @@
       "zh": "导师官方主页",
       "en": "Official faculty profile"
     },
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   "college": {
     "url": "https://enscce.ustb.edu.cn/Teach/TeacherList/2020-06-03/43.html",
@@ -29,7 +29,7 @@
       "zh": "工程研究中心介绍",
       "en": "Engineering research center"
     },
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   "students": {
     "url": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/xsxx/72144/list/index.htm",
@@ -78,5 +78,53 @@
       "en": "Transaction middleware paper"
     },
     "checked": "2026-10-19"
+  },
+  "hpcde_home": {
+    "url": "https://hpcde.hpcer.dev/",
+    "label": {
+      "zh": "HPCDE 公开网站",
+      "en": "HPCDE public website"
+    },
+    "checked": "2026-10-20"
+  },
+  "hpcde_people": {
+    "url": "https://hpcde.hpcer.dev/people/",
+    "label": {
+      "zh": "HPCDE 公开团队目录",
+      "en": "HPCDE public team directory"
+    },
+    "checked": "2026-10-20"
+  },
+  "hpcde_profile": {
+    "url": "https://hpcde.hpcer.dev/author/李建江/",
+    "label": {
+      "zh": "HPCDE 导师介绍",
+      "en": "HPCDE faculty profile"
+    },
+    "checked": "2026-10-20"
+  },
+  "hpcde_archive": {
+    "url": "https://hpcde.github.io/author/李建江/",
+    "label": {
+      "zh": "HPCDE 旧站存档",
+      "en": "HPCDE legacy profile"
+    },
+    "checked": "2026-10-20"
+  },
+  "mpi_book": {
+    "url": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/zzcg/72136/content/3236.htm",
+    "label": {
+      "zh": "MPI 著作官方记录",
+      "en": "Official MPI book record"
+    },
+    "checked": "2026-10-20"
+  },
+  "parallel_book": {
+    "url": "https://faculty.ustb.edu.cn/JianjiangLi/zh_CN/zzcg/72136/content/3235.htm",
+    "label": {
+      "zh": "并行计算著作官方记录",
+      "en": "Official parallel computing book record"
+    },
+    "checked": "2026-10-20"
   }
 }

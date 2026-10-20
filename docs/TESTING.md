@@ -1,5 +1,18 @@
 # 本地构建与验收记录
 
+## 2026-10-20：HPCDE公开资料内容补充
+
+本轮仅调整中英文内容、相应展示组件与样式，没有改动悬浮联系或论文筛选脚本。以下为本轮最新验收；之前的完整交互记录保留为对应版本快照。
+
+- `bundle exec jekyll build`通过；[根路径检查](hpcde-check-root.json)：18个HTML、1,142处站内引用、16条双语路由，0错误。
+- `/lab-preview`生产构建通过；[子路径检查](hpcde-check-production.json)：18个HTML、1,110处站内引用，canonical、hreflang与sitemap检查通过。
+- [HTTP复验](hpcde-http.json)：17个页面、54项资源、5个维护路径、实际404均符合预期。
+- 独立[UI复验报告](reviews/hpcde-ui/REVIEW.md)与[结构化记录](reviews/hpcde-ui/summary.json)：中英文Home/People/Contact × 1440/768/390/320，共24组合，0横向溢出、0破图、0新增内容裁切，语言对应24/24正确。
+- 在书目增加出版社、第一作者和ISBN之后，另行复验中英文People 320px；两条书目及学校原始链接完整、无元数据溢出。悬浮联系在320px正常展开，Escape关闭并归还焦点。
+- 独立[内容审查](reviews/HPCDE_CONTENT_REVIEW.md)：没有P1/P2阻断问题；修复2处P3措辞，补充两本书的官方原始记录。书目年份/版次/完整作者及具体导师对应学生仍保留TODO。
+- 资料采用范围、邮箱拼写差异、旧站停更与往届目录边界见 [HPCDE_RESEARCH.md](HPCDE_RESEARCH.md)。本轮未导入内网入口、未新增无日期新闻、未推断新的论文或项目。
+- 当前源码差异空白检查通过；专用测试浏览器已关闭，用户的4000端口服务继续运行。本轮没有执行远程推送或网站发布。
+
 ## 2026-10-20：学生联系悬浮卡片
 
 本节对应 `feature/floating-contact` 的首版功能，最新浏览器报告为 [floating-contact-browser.json](floating-contact-browser.json)。后续章节保留早期验收快照。
