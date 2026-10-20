@@ -1,10 +1,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ t.nav[page.page_key] | default: page.title | escape }} | {{ t.site_name | escape }}</title>
-  <meta name="description" content="{{ t.description | escape }}">
-  <meta property="og:title" content="{{ t.nav[page.page_key] | default: page.title | escape }} | {{ t.site_name | escape }}">
-  <meta property="og:description" content="{{ t.description | escape }}">
+  {% include verification.html %}
+  {% assign page_seo = t.seo[page.page_key] %}
+  {% capture fallback_title %}{{ t.nav[page.page_key] | default: page.title }} | {{ t.site_name }}{% endcapture %}
+  {% assign seo_title = page_seo.title | default: fallback_title %}
+  {% assign seo_description = page_seo.description | default: t.description %}
+  <title>{{ seo_title | escape }}</title>
+  <meta name="description" content="{{ seo_description | escape }}">
+  <meta property="og:title" content="{{ seo_title | escape }}">
+  <meta property="og:description" content="{{ seo_description | escape }}">
+  <meta property="og:site_name" content="{{ t.site_name | escape }}">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="{{ t.locale | escape }}">
   <meta name="theme-color" content="#102e49">
@@ -12,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32.png' | relative_url | escape }}">
   <link rel="icon" type="image/svg+xml" sizes="any" href="{{ '/assets/mark.svg' | relative_url | escape }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url | escape }}">
-  {% if site.url != '' %}<link rel="canonical" href="{{ page.url | absolute_url | escape }}">{% endif %}
+  {% if site.url != '' %}<link rel="canonical" href="{{ page.url | absolute_url | escape }}"><meta property="og:url" content="{{ page.url | absolute_url | escape }}">{% endif %}
   {% if page.page_key %}
     {% for language in site.data.navigation.languages %}
       {% assign alternative = site.pages | where: 'page_key', page.page_key | where: 'lang', language | first %}

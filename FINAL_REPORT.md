@@ -1,5 +1,15 @@
 # 李建江课题组双语网站：最终交付报告
 
+## 2026-10-20：SEO与搜索收录准备
+
+网站已由用户首次部署到GitHub Pages，中文入口为 <https://thefly6.github.io/lab-website/zh/>，英文入口为 <https://thefly6.github.io/lab-website/en/>；下文各历史阶段的“未部署”描述不代表当前状态。
+
+本轮在 `feature/search-seo` 添加16页独立搜索标题、摘要和一致的Open Graph数据，保留模板的自动Sitemap、中英文hreflang与canonical。根入口补齐摘要和中文首页canonical，并和所有内容页共用用户提供的Google HTML验证标记。验证标识在 `_config.yaml` 统一维护，双语元数据在locale JSON中独立维护。
+
+根路径与生产子路径构建、18个HTML及16条双语路由检查通过，验证标记缺失的负向检查通过。实际浏览器打开中文首页并切换英文，标题、验证标记与canonical正确，桌面布局正常。见 [本轮测试记录](docs/TESTING.md)、[生产检查](docs/seo-check-production.json)与[根路径检查](docs/seo-check-root.json)。
+
+完成网站侧配置仍需发布包含标记的版本，随后站点所有者在Google账号内点击验证、提交Sitemap，并用网址检查请求收录。本站无法保证Google抓取时间或关键词排名；其他搜索引擎的收录需另行处理。完整操作、搜索词示例和官方参考见 [搜索收录指南](docs/SEARCH_INDEXING.md)。保留全部成员、招生、来源时效等既有TODO，本轮不补造资料。
+
 ## 2026-10-20 Git合并与源码归档
 
 用户已验收内容优化，`main`已快进合并 `content/hpcde-public-info`，包含截至 `baef9e2` 的全部网站改动。本次归档目标为 [theFly6/lab-website](https://github.com/theFly6/lab-website)，上传范围为主分支及 `v0.1-layout-baseline`、`v0.2-floating-contact` 两个附注标签。原模板完整Git历史已补全，模板来源保留为`upstream`。

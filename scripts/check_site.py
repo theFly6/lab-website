@@ -18,10 +18,19 @@ class Document(HTMLParser):
         self.lang_links = []
         self.canonical = []
         self.alternates = []
+        self.titles = []
+        self.in_title = False
+        self.meta = {}
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == 'title':
+            self.in_title = True
+            self.titles.append('')
+        if tag == 'meta':
+            key = attrs.get('name') or attrs.get('property')
+            self.meta.setdefault(key, []).append(attrs.get('content', ''))
         if tag == 'html':
             self.lang = attrs.get('lang')
         if tag == 'h1':
@@ -38,6 +47,14 @@ class Document(HTMLParser):
             self.canonical.append(attrs.get('href'))
         if tag == 'link' and attrs.get('rel') == 'alternate' and attrs.get('hreflang'):
             self.alternates.append(attrs.get('href'))
+
+    def handle_endtag(self, tag):
+        if tag == 'title':
+            self.in_title = False
+
+    def handle_data(self, data):
+        if self.in_title:
+            self.titles[-1] += data
 
 
 def keys(value, prefix=''):
@@ -58,6 +75,7 @@ def main():
     parser.add_argument('--site', default='_site')
     parser.add_argument('--baseurl', default='')
     parser.add_argument('--expected-origin', default='')
+    parser.add_argument('--expected-verification', default='')
     args = parser.parse_args()
     root = Path(args.site).resolve()
     source = Path(__file__).resolve().parents[1]
@@ -65,6 +83,8 @@ def main():
     documents = {}
     checked_links = 0
     expected_sitemap_urls = set()
+    page_titles = set()
+    page_descriptions = set()
     files = sorted(root.rglob('*.html'))
     if not files:
         raise SystemExit('未找到构建后的 HTML，请先运行 jekyll build。')
@@ -113,6 +133,17 @@ def main():
                 continue
             if doc.lang != html_lang or doc.h1 != 1:
                 errors.append(f'语言或 h1 异常: {lang}/{suffix}: {doc.lang}, {doc.h1}')
+            title = doc.titles[0].strip() if len(doc.titles) == 1 else ''
+            descriptions = doc.meta.get('description', [])
+            description = descriptions[0].strip() if len(descriptions) == 1 else ''
+            if not title or title in page_titles or not description or description in page_descriptions:
+                errors.append(f'标题或描述缺失、重复: {lang}/{suffix}')
+            page_titles.add(title)
+            page_descriptions.add(description)
+            if doc.meta.get('og:title') != [title] or doc.meta.get('og:description') != [description]:
+                errors.append(f'Open Graph 与页面元数据不一致: {lang}/{suffix}')
+            if any('noindex' in value.lower() for value in doc.meta.get('robots', []) + doc.meta.get('googlebot', [])):
+                errors.append(f'正式页面不应禁止收录: {lang}/{suffix}')
             other = 'en' if lang == 'zh' else 'zh'
             expected = args.baseurl + '/' + other + '/' + suffix
             if expected not in doc.lang_links:
@@ -124,6 +155,20 @@ def main():
                 expected_sitemap_urls.add(canonical)
                 if doc.canonical != [canonical] or alternate not in doc.alternates:
                     errors.append(f'生产 canonical/hreflang 错误: {lang}/{suffix}')
+                if doc.meta.get('og:url') != [canonical]:
+                    errors.append(f'Open Graph 地址错误: {lang}/{suffix}')
+    if args.expected_verification:
+        verification_pages = [root / 'index.html'] + [root / lang / ('' if key == 'home' else key) / 'index.html'
+            for lang in ['zh', 'en']
+            for key in ['home', 'people', 'research', 'projects', 'publications', 'news', 'join', 'contact']]
+        for path in verification_pages:
+            doc = documents.get(path)
+            if not doc or doc.meta.get('google-site-verification') != [args.expected_verification]:
+                errors.append(f'Google 验证标记缺失或重复: {path.relative_to(root)}')
+    if args.expected_origin:
+        root_doc = documents.get(root / 'index.html')
+        if not root_doc or root_doc.canonical != [args.expected_origin.rstrip('/') + args.baseurl + '/zh/']:
+            errors.append('根入口 canonical 应指向中文首页')
     if args.expected_origin:
         try:
             sitemap = ElementTree.parse(root / 'sitemap.xml')

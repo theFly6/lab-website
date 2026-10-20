@@ -1,6 +1,6 @@
-# 李建江课题组双语网站（本地初稿）
+# 李建江课题组双语网站
 
-基于 [Greene Lab Website Template](https://github.com/greenelab/lab-website-template) 搭建。保留 Jekyll / Liquid / SCSS 技术栈与模板分区、组件结构。源码仓库为 [theFly6/lab-website](https://github.com/theFly6/lab-website)；网站仍以本地预览为主，尚未部署到 GitHub Pages，未购买服务器或域名。
+基于 [Greene Lab Website Template](https://github.com/greenelab/lab-website-template) 搭建。保留 Jekyll / Liquid / SCSS 技术栈与模板分区、组件结构。源码仓库为 [theFly6/lab-website](https://github.com/theFly6/lab-website)；已发布到 GitHub Pages：[中文网站](https://thefly6.github.io/lab-website/zh/) · [English website](https://thefly6.github.io/lab-website/en/)。仍可在本地独立预览，未购买服务器或域名。
 
 完整交付与4个独立Subagent交叉审查结果见 [FINAL_REPORT.md](FINAL_REPORT.md)。
 
@@ -150,18 +150,20 @@ bundle exec jekyll build --baseurl /lab-preview --destination .local/site-subpat
 python3 scripts/check_site.py --site .local/site-subpath --baseurl /lab-preview
 ```
 
-## 以后发布到 GitHub Pages
+## 更新 GitHub Pages 与搜索收录
 
-本次没有执行以下发布操作。资料审核完成后：
+网站已经首次发布。后续内容更新沿用以下流程：
 
 1. 根据TODO确认名称、成员、招生、照片与联系方式；调整或移除双语页脚的草稿标记。
 2. 使用现有源码仓库 `theFly6/lab-website`；`origin`已指向该仓库，模板来源保留为`upstream`。
-3. 若发布到此仓库的GitHub Pages，在 `_config.yaml` 设置 `url: "https://thefly6.github.io"`、`baseurl: "/lab-website"`。正式上线前再修改，本地预览仍使用空baseurl。
+3. `_config.yaml` 已设置 `url: "https://thefly6.github.io"`；本地 `baseurl` 保持空，Pages工作流构建时自动传入仓库子路径 `/lab-website`。
 4. 将源码（含Gemfile.lock和LICENSE）提交到自己的仓库，忽略vendor、_site、.bundle、.local。本站含自定义Jekyll插件，选择仓库 Settings → Pages → **GitHub Actions**，不要直接让内置Pages Jekyll编译源码。
 5. Actions 中手动运行 `手动发布已审核网站到 GitHub Pages`。提供的 `.github/workflows/pages.yml` 构建并检查内部链接，然后发布静态产物；配置为手动触发，单纯push不会自动上线。
 6. 上线后复查 `/zh/`、`/en/`、所有语言切换及子路径资源。
 
 自定义域名、统计服务、表单或账号系统尚未设置，也不是本阶段所需。
+
+16个中英文内容页的搜索标题、摘要在 `_data/locales/zh.json`、`en.json` 的 `seo` 中维护。Sitemap由插件自动生成；Google验证标识统一在 `_config.yaml` 的 `google_site_verification` 配置。首次验证、提交地图、查询关键词与收录排查见 [搜索收录说明](docs/SEARCH_INDEXING.md)。Google账号内的验证和索引状态以Search Console为准。
 
 ## 模板与许可
 

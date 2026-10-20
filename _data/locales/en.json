@@ -209,5 +209,39 @@
     "center": "Engineering Research Center for Integrated Intelligent Supercomputing Applications",
     "hpcde": "HPCDE Lab public website",
     "hpcde_directory": "HPCDE public team directory"
+  },
+  "seo": {
+    "home": {
+      "title": "Jianjiang Li Research Group | High Performance Computing at USTB",
+      "description": "Explore high performance computing, parallel and distributed systems, cloud computing and big data with Jianjiang Li at the University of Science and Technology Beijing."
+    },
+    "people": {
+      "title": "Professor and Team | Jianjiang Li Research Group, USTB",
+      "description": "Learn about Professor Jianjiang Li at USTB, including his education, research interests, public appointments, teaching and student mentoring."
+    },
+    "research": {
+      "title": "High Performance Computing and Distributed Systems | Jianjiang Li Group",
+      "description": "Explore four research themes: high performance and heterogeneous computing, parallel models and compilation, distributed systems and cloud data, and scientific computing and HPC applications."
+    },
+    "projects": {
+      "title": "Research Projects | Jianjiang Li Research Group, USTB",
+      "description": "Browse publicly documented research projects associated with Professor Jianjiang Li, including project periods, research context and links to sources."
+    },
+    "publications": {
+      "title": "Selected Publications | Jianjiang Li Research Group, USTB",
+      "description": "Browse selected papers on high performance computing, scientific software, distributed storage and data processing, with filters by year and topic and links to publications."
+    },
+    "news": {
+      "title": "News and Academic Updates | Jianjiang Li Research Group, USTB",
+      "description": "Read collected research, practice and academic updates associated with Jianjiang Li at USTB, with links to original school reports and public sources."
+    },
+    "join": {
+      "title": "Graduate Study and Enquiries | Jianjiang Li Research Group, USTB",
+      "description": "Interested in computer systems, parallel computing or distributed systems? Explore research interests, preparation for graduate applications and official USTB admissions resources."
+    },
+    "contact": {
+      "title": "Contact | Jianjiang Li Research Group, USTB",
+      "description": "Find public contact details, the school address, a student enquiry email and official profile links for Jianjiang Li and the research group at USTB."
+    }
   }
 }
