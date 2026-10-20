@@ -1,0 +1,165 @@
+{
+  "checked_at_utc": "2026-10-20T03:55:19.949177+00:00",
+  "deployment_run": "https://github.com/theFly6/lab-website/actions/runs/39366703288",
+  "deployed_source_commit": "77cde955a636d8ed8237ce273968cf1b16d0db2f",
+  "pages": [
+    {
+      "url": "https://thefly6.github.io/lab-website/",
+      "status": 200,
+      "title": [
+        "北京科技大学李建江课题组 | 高性能与并行计算"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/",
+      "status": 200,
+      "title": [
+        "北京科技大学李建江课题组 | 高性能与并行计算"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/people/",
+      "status": 200,
+      "title": [
+        "导师与团队 | 北京科技大学李建江课题组"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/research/",
+      "status": 200,
+      "title": [
+        "高性能计算与分布式系统研究 | 李建江课题组"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/projects/",
+      "status": 200,
+      "title": [
+        "科研项目 | 北京科技大学李建江课题组"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/publications/",
+      "status": 200,
+      "title": [
+        "学术论文与代表性成果 | 北京科技大学李建江课题组"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/news/",
+      "status": 200,
+      "title": [
+        "新闻与学术动态 | 北京科技大学李建江课题组"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/join/",
+      "status": 200,
+      "title": [
+        "研究生申请与联系 | 北京科技大学李建江课题组"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/zh/contact/",
+      "status": 200,
+      "title": [
+        "联系方式 | 北京科技大学李建江课题组"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/",
+      "status": 200,
+      "title": [
+        "Jianjiang Li Research Group | High Performance Computing at USTB"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/people/",
+      "status": 200,
+      "title": [
+        "Professor and Team | Jianjiang Li Research Group, USTB"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/research/",
+      "status": 200,
+      "title": [
+        "High Performance Computing and Distributed Systems | Jianjiang Li Group"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/projects/",
+      "status": 200,
+      "title": [
+        "Research Projects | Jianjiang Li Research Group, USTB"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/publications/",
+      "status": 200,
+      "title": [
+        "Selected Publications | Jianjiang Li Research Group, USTB"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/news/",
+      "status": 200,
+      "title": [
+        "News and Academic Updates | Jianjiang Li Research Group, USTB"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/join/",
+      "status": 200,
+      "title": [
+        "Graduate Study and Enquiries | Jianjiang Li Research Group, USTB"
+      ],
+      "verification_matches": true,
+      "errors": []
+    },
+    {
+      "url": "https://thefly6.github.io/lab-website/en/contact/",
+      "status": 200,
+      "title": [
+        "Contact | Jianjiang Li Research Group, USTB"
+      ],
+      "verification_matches": true,
+      "errors": []
+    }
+  ],
+  "sitemap": {
+    "status": 200,
+    "locations": 17
+  },
+  "errors": []
+}

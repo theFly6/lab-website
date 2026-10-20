@@ -8,7 +8,9 @@
 
 根路径与生产子路径构建、18个HTML及16条双语路由检查通过，验证标记缺失的负向检查通过。实际浏览器打开中文首页并切换英文，标题、验证标记与canonical正确，桌面布局正常。见 [本轮测试记录](docs/TESTING.md)、[生产检查](docs/seo-check-production.json)与[根路径检查](docs/seo-check-root.json)。
 
-完成网站侧配置仍需发布包含标记的版本，随后站点所有者在Google账号内点击验证、提交Sitemap，并用网址检查请求收录。本站无法保证Google抓取时间或关键词排名；其他搜索引擎的收录需另行处理。完整操作、搜索词示例和官方参考见 [搜索收录指南](docs/SEARCH_INDEXING.md)。保留全部成员、招生、来源时效等既有TODO，本轮不补造资料。
+SEO源码已提交为 `77cde95`，快进合并至 `main` 并推送，`feature/search-seo` 同步保存在远程。[Pages发布运行](https://github.com/theFly6/lab-website/actions/runs/39366703288)已成功。随后通过代理实际请求线上根入口与16个中英文页面，全部返回200，验证标记与用户提供值完全一致，标题/摘要、canonical与hreflang和本地产物一致；线上Sitemap的17个网址完全匹配。详见 [线上验收结果](docs/seo-live.json)。没有新增或覆盖版本标签。
+
+站点所有者现在可在Google账号内点击验证、提交Sitemap，并用网址检查请求收录；这些账号内操作尚未代为执行。本站无法保证Google抓取时间或关键词排名，其他搜索引擎的收录需另行处理。完整操作、搜索词示例和官方参考见 [搜索收录指南](docs/SEARCH_INDEXING.md)。保留全部成员、招生、来源时效等既有TODO，本轮不补造资料。
 
 ## 2026-10-20 Git合并与源码归档
 
