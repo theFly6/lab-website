@@ -1,5 +1,14 @@
 # 本地构建与验收记录
 
+## 2026-10-20：首页/导师身份与申请指南SEO优化
+
+- [生产子路径](identity-seo-check-production.json)和[根路径](identity-seo-check-root.json)构建、16条双语路由、18个HTML、1,122处内部引用均通过。
+- 校验首页身份H1、导师/申请页面H1、双语3项问答、待确认招生TODO均正确输出。Google验证标记、独立元数据、canonical和hreflang保留。
+- 比对[之前发布验收](seo-live.json)中的网址集合与本轮地图，17个网址完全一致。
+- [浏览器报告](identity-seo-ui.json)检查中英文首页/导师页/申请页 × 1440/390/320像素，共18组合，0横向溢出、0标题越界、0损坏图片，单一H1与语言对应正确；真实点击申请页语言切换仍在对应`/en/join/`。
+- 查看中文桌面首页、英文320px首页及申请问答视口截图，身份标题、原标语、研究方向、招生入口与联系浮层可读。UI辅助截图保存在本地`.local/identity-seo-ui/`；未修改运行依赖。
+- 详细改动与普通内容更新无需重设地图的说明见 [IDENTITY_SEO.md](IDENTITY_SEO.md)。
+
 ## 2026-10-20：SEO与Google验证标记
 
 - 从 `main` 创建 `feature/search-seo`，保留既有布局、TODO与开发记录；仅调整元数据、验证配置和维护文档。

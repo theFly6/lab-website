@@ -11,7 +11,7 @@
       {% if page.page_key and page.page_key != 'home' %}
       <section class="page-heading">
         <div class="eyebrow">{{ t.institution_short | escape }} / {{ t.eyebrows[page.page_key] | escape }}</div>
-        <h1>{{ t.nav[page.page_key] | escape }}</h1>
+        <h1>{{ t.page_titles[page.page_key] | default: t.nav[page.page_key] | escape }}</h1>
         <p class="lead">{{ t.intros[page.page_key] | escape }}</p>
       </section>
       {% endif %}

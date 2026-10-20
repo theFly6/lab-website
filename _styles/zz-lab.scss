@@ -76,6 +76,7 @@ section.page-heading { padding-top: 48px; padding-bottom: 40px; background: #f0f
 .hero-inner { max-width: 1280px; margin: auto; display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; padding: 68px 40px 56px; gap: 25px; }
 .hero h1 { color: white; font-size: clamp(2.5rem, 4.1vw, 3.75rem); line-height: 1.4; white-space: pre-line; margin: 22px 0; }
 .hero .eyebrow { color: #82d8da; }
+.hero-tagline { margin: -4px 0 12px; color: #d3e2e9; font-size: 1.05rem; }
 .hero-subtitle { font-size: 1rem; font-weight: 550; color: #b6e0e5; margin-bottom: 20px; }
 .hero-description { max-width: 590px; font-size: 1rem; color: #d3e2e9; line-height: 1.95; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }

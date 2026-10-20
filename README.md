@@ -165,6 +165,8 @@ python3 scripts/check_site.py --site .local/site-subpath --baseurl /lab-preview
 
 16个中英文内容页的搜索标题、摘要在 `_data/locales/zh.json`、`en.json` 的 `seo` 中维护。Sitemap由插件自动生成；Google验证标识统一在 `_config.yaml` 的 `google_site_verification` 配置。首次验证、提交地图、查询关键词与收录排查见 [搜索收录说明](docs/SEARCH_INDEXING.md)。Google账号内的验证和索引状态以Search Console为准。
 
+首页主标题、导师身份与博士/硕士申请指南的后续优化及维护位置见 [IDENTITY_SEO.md](docs/IDENTITY_SEO.md)。页面H1可通过locale的`page_titles`独立于导航维护；申请问答在`join.faq`中维护。更新已有页面并发布后，无需重新验证Google或重复提交Sitemap。
+
 ## 模板与许可
 
 原始模板与改造说明见 [docs/TEMPLATE.md](docs/TEMPLATE.md)。`LICENSE.md`保留上游BSD 3-Clause许可，页脚保留模板署名。照片与学校标识不因模板BSD许可而自动取得使用授权。

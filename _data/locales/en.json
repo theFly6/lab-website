@@ -27,12 +27,12 @@
     "contact": "CONTACT"
   },
   "intros": {
-    "people": "Connecting computer systems research, parallel computing and practical applications.",
+    "people": "Explore Professor Jianjiang Li’s research, education, teaching and mentoring at the School of Computer and Communication Engineering, University of Science and Technology Beijing (USTB), alongside related research platforms.",
     "research": "Efficient and scalable computing, from computational kernels to distributed platforms.",
     "projects": "Explore the context of our work through verifiable public project records.",
     "publications": "Selected work in high-performance computing, scientific software, distributed storage and data processing.",
     "news": "Research, practice and academic updates.",
-    "join": "Interested in computer systems and parallel computing? Start by exploring our research.",
+    "join": "Research interests, preparation for academic enquiries and official admissions resources for prospective doctoral and master’s applicants interested in Jianjiang Li’s group at USTB.",
     "contact": "Get in touch to discuss research and academic exchange."
   },
   "skip": "Skip to content",
@@ -75,20 +75,21 @@
   },
   "hero": {
     "kicker": "LI JIANJIANG GROUP / USTB",
-    "heading": "Efficient computing.\nScalable systems.",
+    "heading": "Jianjiang Li\nResearch Group",
     "subheading": "High-performance computing · Parallel & distributed systems",
-    "text": "At USTB, we study parallel computing, cloud computing and big data, connecting system optimization with scientific and engineering applications.",
+    "text": "At the University of Science and Technology Beijing (USTB), Professor Jianjiang Li’s group studies high-performance computing, parallel and distributed systems, cloud computing and big data, connecting system optimization with scientific and engineering applications.",
     "research": "Explore our research",
     "join": "Join Us",
     "image_alt": "Abstract diagram of compute nodes, memory and interconnects",
     "caption": "Computing · Data · Systems — conceptual illustration",
-    "disciplines": "COMPUTING · DATA · SYSTEMS"
+    "disciplines": "COMPUTING · DATA · SYSTEMS",
+    "tagline": "Efficient computing. Scalable systems."
   },
   "home": {
     "about_kicker": "ABOUT THE GROUP",
     "about_title": "Systems research for real problems",
     "people_link": "Meet the people",
-    "about": "Professor Jianjiang Li works on high-performance, parallel and distributed computing, cloud computing and big data, and integrated intelligent supercomputing applications. This site brings together his public profile and verified selected work.",
+    "about": "Professor Jianjiang Li works at USTB’s School of Computer and Communication Engineering. He is a doctoral supervisor and holds a Ph.D. in engineering from Tsinghua University. His research covers high-performance, parallel and distributed computing, cloud computing and big data, and integrated intelligent supercomputing applications. This site brings together public profile information and verified selected work.",
     "focus_title": "A systems perspective",
     "focus": "From multicore parallelism and program optimization to distributed data management and scientific software for applications such as materials simulation.",
     "research_title": "Research directions",
@@ -97,7 +98,7 @@
     "news_title": "Recent public updates",
     "join_title": "Explore computing with us",
     "join_text": "Learn about research directions for doctoral and master’s study. Eligibility, places and timelines depend on annual university and school notices and confirmation from the supervisor.",
-    "join_link": "Study and contact information",
+    "join_link": "Doctoral and master’s application guide",
     "platform_note": "The HPCDE public team directory lists Professor Li. The site describes a high-performance computing and data engineering laboratory at USTB and provides further context for the broader research platform."
   },
   "people": {
@@ -164,30 +165,30 @@
   },
   "join": {
     "kicker": "EXPLORE · DISCUSS · RESEARCH",
-    "heading": "Start with a question that interests you",
-    "intro": "Students interested in high-performance computing, parallel computing, distributed systems, cloud computing and big data are welcome to explore the research and contact Professor Li through his public email.",
+    "heading": "Explore the research and admissions arrangements",
+    "intro": "Prospective doctoral and master’s students interested in Jianjiang Li’s group at USTB can start with the faculty profile and selected work, then consider their own research interests. This guide introduces preparation for enquiries and official admissions resources. Formal arrangements follow annual university and school notices and supervisor confirmation.",
     "email_button": "Email Professor Li",
     "degrees": [
       {
         "label": "DOCTORAL STUDY",
-        "title": "Investigate systems in depth",
+        "title": "Doctoral applications",
         "text": "Professor Li is a doctoral supervisor. Read the selected work to learn about related research. Programs, application routes, eligibility and places must be checked against annual admissions documents and confirmed with the supervisor."
       },
       {
         "label": "MASTER’S STUDY",
-        "title": "Connect methods with practice",
+        "title": "Master’s applications",
         "text": "Explore parallel programming, distributed data management and scientific software. Degree categories, examination or recommendation requirements, and admissions plans follow the annual official notices."
       }
     ],
-    "steps_title": "Suggested steps to learn more",
+    "steps_title": "Preparing for applications and enquiries",
     "steps": [
       {
         "title": "Explore the research",
-        "text": "Read the research pages and selected publications, and identify questions that interest you."
+        "text": "Read the research themes and selected papers, identify systems questions that interest you, and consider how your background relates to the group’s work."
       },
       {
         "title": "Prepare for a conversation",
-        "text": "An introductory email can briefly describe your background, research interests and relevant projects. This is communication advice, not a formal application requirement."
+        "text": "An enquiry email can briefly describe your background, questions of interest, project or research experience, and what you would like to learn. You may include a CV or public project links where relevant. These are communication suggestions, not formal application requirements."
       },
       {
         "title": "Check annual admissions notices",
@@ -195,8 +196,27 @@
       }
     ],
     "notice_title": "Admissions information",
-    "notice": "At the time of checking, the faculty admissions page had no entries. This page introduces research and contact routes; it does not promise places, admission or funding.",
-    "pending": "Admissions year, doctoral/master’s plans, eligibility, assessment and funding policies require confirmation."
+    "notice": "This page introduces research and enquiry routes. Unconfirmed annual admissions plans, eligibility and funding policies are not presented as formal arrangements. Refer to university and school notices and supervisor confirmation for specific requirements.",
+    "pending": "Admissions year, doctoral/master’s plans, eligibility, assessment and funding policies require confirmation.",
+    "research_title": "Research themes for prospective applicants",
+    "research_intro": "These themes summarize public research interests, projects and selected papers. They provide research context and do not establish annual admissions programs, available places or promised projects.",
+    "people_link": "Meet Professor Jianjiang Li",
+    "publications_link": "Read selected publications",
+    "faq_title": "Application and admissions questions",
+    "faq": [
+      {
+        "question": "Are specific doctoral or master’s places confirmed?",
+        "answer": "This site has not confirmed the current annual admissions plan. Consult USTB graduate admissions resources, school notices and the supervisor for the relevant year. Research descriptions do not establish available places."
+      },
+      {
+        "question": "Can I speak with a group student before applying?",
+        "answer": "Use the student contact entry at the bottom right to discuss research interests, group life and preparation for applications. Formal eligibility, assessment and admissions arrangements remain subject to official notices and supervisor confirmation."
+      },
+      {
+        "question": "Does emailing the supervisor replace a formal application?",
+        "answer": "Email is for research discussions and enquiries; it does not replace an application. Follow the annual admissions documents for the application route, materials, dates and assessment process, and apply through the required channels."
+      }
+    ]
   },
   "contact": {
     "correspondence": "ACADEMIC & ADMISSIONS ENQUIRIES",
@@ -213,11 +233,11 @@
   "seo": {
     "home": {
       "title": "Jianjiang Li Research Group | High Performance Computing at USTB",
-      "description": "Explore high performance computing, parallel and distributed systems, cloud computing and big data with Jianjiang Li at the University of Science and Technology Beijing."
+      "description": "Meet Professor Jianjiang Li at the University of Science and Technology Beijing (USTB). Explore high-performance computing, parallel and distributed systems, selected work, and graduate application resources."
     },
     "people": {
-      "title": "Professor and Team | Jianjiang Li Research Group, USTB",
-      "description": "Learn about Professor Jianjiang Li at USTB, including his education, research interests, public appointments, teaching and student mentoring."
+      "title": "Professor Jianjiang Li and Team | Computer and Communication Engineering, USTB",
+      "description": "Learn about Jianjiang Li, professor and doctoral supervisor at USTB’s School of Computer and Communication Engineering, with a Ph.D. from Tsinghua University: research, education, teaching and mentoring."
     },
     "research": {
       "title": "High Performance Computing and Distributed Systems | Jianjiang Li Group",
@@ -236,12 +256,16 @@
       "description": "Read collected research, practice and academic updates associated with Jianjiang Li at USTB, with links to original school reports and public sources."
     },
     "join": {
-      "title": "Graduate Study and Enquiries | Jianjiang Li Research Group, USTB",
-      "description": "Interested in computer systems, parallel computing or distributed systems? Explore research interests, preparation for graduate applications and official USTB admissions resources."
+      "title": "Doctoral and Master’s Admissions and Application Guide | Jianjiang Li Group, USTB",
+      "description": "Explore research interests, preparation for enquiries and official graduate admissions resources for Jianjiang Li’s group at USTB. Programs, places and dates require annual official notices and supervisor confirmation."
     },
     "contact": {
       "title": "Contact | Jianjiang Li Research Group, USTB",
       "description": "Find public contact details, the school address, a student enquiry email and official profile links for Jianjiang Li and the research group at USTB."
     }
+  },
+  "page_titles": {
+    "people": "Professor Jianjiang Li and Team",
+    "join": "Doctoral and Master’s Application Guide"
   }
 }

@@ -12,6 +12,8 @@
 
 ## 首次验证与提交
 
+如果只是修改已有页面内容，保留当前资源和验证标记即可，不需要重新验证或重复提交地图。本轮首页、导师身份与申请指南的维护说明见 [IDENTITY_SEO.md](IDENTITY_SEO.md)。
+
 1. 在 [Google Search Console](https://search.google.com/search-console) 用自己的账号添加**网址前缀**资源：`https://thefly6.github.io/lab-website/`，结尾保留 `/`。这样包含中英文子页面。本站不能通过项目仓库控制 `github.io` 的 DNS。
 2. 选择 HTML 标记验证。用户本轮给出的验证码已接入源码。必须先将包含标记的版本发布到 Pages，再点“验证”；仅本地构建成功还不够。
 3. 仓库 Actions → **手动发布已审核网站到 GitHub Pages** → **Run workflow**，选择已经包含这些更改的分支（合并后通常选 `main`）。推送源码本身不会自动部署。

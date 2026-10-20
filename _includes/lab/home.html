@@ -3,6 +3,7 @@
     <div class="hero-copy">
       <p class="eyebrow">{{ t.hero.kicker | escape }}</p>
       <h1>{{ t.hero.heading | escape }}</h1>
+      <p class="hero-tagline">{{ t.hero.tagline | escape }}</p>
       <p class="hero-subtitle">{{ t.hero.subheading | escape }}</p>
       <p class="hero-description">{{ t.hero.text | escape }}</p>
       <div class="hero-actions"><a class="button primary" href="{{ home_url | append: 'research/' | relative_url | escape }}">{{ t.hero.research | escape }} <span aria-hidden="true">→</span></a><a class="button outline" href="{{ home_url | append: 'join/' | relative_url | escape }}">{{ t.hero.join | escape }} <span aria-hidden="true">↗</span></a></div>
