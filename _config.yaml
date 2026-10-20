@@ -1,7 +1,7 @@
 # 保留 Greene Lab 模板的 Jekyll 配置与插件。
 title: 李建江课题组
 description: 北京科技大学李建江课题组，研究高性能计算、并行与分布式系统、云计算与大数据。
-url: ""
+url: "https://thefly6.github.io"
 baseurl: ""
 timezone: Asia/Shanghai
 lang: zh-CN
